@@ -23,4 +23,4 @@ Then open `http://localhost:8000`.
 
 To host this repository with GitHub Pages, choose the `main` branch and repository root in the repository's Pages settings. The repository can also be cloned and served by any static hosting provider.
 
-Live Sites version: https://business-central-updates.vanni-martignago.chatgpt.site/
+Live Sites version: https://bc.history.vanni-martignago.chatgpt.site/
