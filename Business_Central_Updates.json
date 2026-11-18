@@ -13768,5 +13768,23 @@
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-app-resources#sharing-resources-with-other-apps",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-app-resources",
     "blogSource": null
+  },
+  {
+    "majorVersion": null,
+    "minorVersion": null,
+    "releaseWave": null,
+    "productArea": null,
+    "countryRegion": null,
+    "functionalArea": "Finance",
+    "feature": "Prepare year-end audit evidence with the PBC checklist",
+    "description": "Use existing Business Central reports, ledger entries, and setup pages to assemble evidence for a year-end audit. The prepared-by-client (PBC) checklist maps common auditor requests to sources for the general ledger, cash and banking, receivables, payables, inventory, and controls. The accountant or financial controller coordinates evidence collection with finance, inventory, approval, and administration teams. Users need access to the relevant reports, pages, and underlying data for each company in scope. Gather external evidence such as bank-issued statements separately.",
+    "releaseStatus": null,
+    "previewDate": null,
+    "gaDate": null,
+    "cloud": null,
+    "onPrem": null,
+    "primarySource": null,
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-prepare-audit-pbc-checklist#business-roles-in-the-data-collection-process",
+    "blogSource": null
   }
 ]
