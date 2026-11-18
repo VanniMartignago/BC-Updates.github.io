@@ -1,5 +1,9 @@
 # Project instructions
 
+For each feature update, follow the official references cited by approved complementary sources and verify that they substantiate the specific feature before recording them. Review paginated source archives and record the scope of each review.
+
+Title each update pull request `Added features XX, modified YY on DD-MM-YYYY`. After committing, show the user separate lists of added and modified feature titles. Wait for explicit approval before merging into main. After the merge, synchronize the local main with GitHub and verify both point to the same commit.
+
 If developing AL code in VS Code, follow `.github/copilot-istructions.md` when present.
 
 The project maintains an English-language blog documenting Microsoft Dynamics 365 Business Central features from version 13 through the current release. `Business_Central_Updates.xlsx` is the primary database; generate `Business_Central_Updates.json` from the Excel data. The workbook's existing structure and contents are a starting point and may evolve.
