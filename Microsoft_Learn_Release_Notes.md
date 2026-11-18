@@ -120,3 +120,6 @@ Verified Microsoft Learn pages matching `whatsnew-update-{major}-{minor}` for Bu
 - [Update 29.0](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-0)
 - [Update 29.1](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-1)
 
+## Version 30
+
+- Update 30.0 release notes were not available at the time of this check (2026-11-18). Microsoft Learn confirms that version 30 is in early access preview; its update overview is tracked at [Prepare for major updates with preview environments](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/preview-environments). Check for a `whatsnew-update-30-0` page again in a future update.
