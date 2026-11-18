@@ -13750,5 +13750,23 @@
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-smart-notifications#view-notifications-while-reviewing-agent-changes",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/supervise-agent-tasks#show-page-notifications-during-review",
     "blogSource": "https://yzhums.com/77124/"
+  },
+  {
+    "majorVersion": "29",
+    "minorVersion": null,
+    "releaseWave": "2026 release wave 2",
+    "productArea": null,
+    "countryRegion": null,
+    "functionalArea": null,
+    "feature": "Share packaged resources between apps",
+    "description": "AL extensions can expose packaged files to other extensions by listing their folders in publicResourceFolders in app.json. Other extensions can read the public resources through NavApp. Resource names must be unique across public and private folders.",
+    "releaseStatus": null,
+    "previewDate": null,
+    "gaDate": null,
+    "cloud": null,
+    "onPrem": null,
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-app-resources#sharing-resources-with-other-apps",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-app-resources",
+    "blogSource": null
   }
 ]
