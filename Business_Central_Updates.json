@@ -12265,15 +12265,15 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Page Scripting enters General Availability",
-    "description": "Page Scripting enters General Availability.",
+    "description": "Records and replays Business Central web client interactions for user acceptance testing. The generally available release supports selecting multiple grid rows and checking the text shown in message or error dialogs. Recording and playback require the corresponding permissions.",
     "releaseStatus": null,
     "previewDate": null,
     "gaDate": "Oct 2026",
     "cloud": "Yes",
-    "onPrem": "Da verificare per feature",
+    "onPrem": "Yes",
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-0",
-    "officialDocumentation": null,
-    "blogSource": null
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting",
+    "blogSource": "https://yzhums.com/77021/"
   },
   {
     "majorVersion": "29",
@@ -13732,5 +13732,23 @@
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/localfunctionality/unitedkingdom/united-kingdom-local-functionality",
     "officialDocumentation": null,
     "blogSource": null
+  },
+  {
+    "majorVersion": "30",
+    "minorVersion": "30.0",
+    "releaseWave": "2027 release wave 1",
+    "productArea": "User experience",
+    "countryRegion": null,
+    "functionalArea": null,
+    "feature": "Show page notifications during agent review",
+    "description": "When the data review bar is present, Business Central initially hides regular page notifications. Reviewers can show or hide those notifications without leaving or completing the agent review.",
+    "releaseStatus": "Planned",
+    "previewDate": null,
+    "gaDate": null,
+    "cloud": null,
+    "onPrem": null,
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-smart-notifications#view-notifications-while-reviewing-agent-changes",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/supervise-agent-tasks#show-page-notifications-during-review",
+    "blogSource": "https://yzhums.com/77124/"
   }
 ]
