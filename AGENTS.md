@@ -1,6 +1,6 @@
 # Project instructions
 
-For each feature update, follow the official references cited by approved complementary sources and verify that they substantiate the specific feature before recording them. Review paginated source archives and record the scope of each review.
+For each feature update, follow the official references cited by approved complementary sources and verify that they substantiate the specific feature before recording them. For each approved blog, review its entire Business Central feature coverage, including every page of relevant paginated archives and relevant posts found through other site indexes. Compare eligible features with the current workbook, verify the official references cited in each article, and record which pages were reviewed or could not be accessed. Mark coverage complete only after the entire relevant archive has been reviewed.
 
 Title each update pull request `Added features XX, modified YY on DD-MM-YYYY`. After committing, show the user separate lists of added and modified feature titles. Wait for explicit approval before merging into main. After the merge, synchronize the local main with GitHub and verify both point to the same commit.
 
@@ -49,7 +49,7 @@ The requested maintenance cadence is every Saturday. Check previously approved s
 ## Complementary sources
 
 - [Foxer — Business Central release updates](https://bc.foxer.pl/en/).
-- [Yun Zhu](https://yzhums.com/).
+- [Yun Zhu — Dynamics 365 Lab, Business Central archive](https://yzhums.com/category/dynamics365/dynamics365businesscentral/).
 - [Stefano Demiliani](https://demiliani.com/).
 - [Version Manager](https://blog.versionmanager.dk/).
 - [ArvyDev — Business Central release updates](https://arvydev.com/blog/business-central-2026-wave-2-whats-new/).
