@@ -1,4 +1,4 @@
-# Business Central Updates
+# Business Central History
 
 Bilingual, searchable feature archive for Microsoft Dynamics 365 Business Central.
 
@@ -7,7 +7,7 @@ Bilingual, searchable feature archive for Microsoft Dynamics 365 Business Centra
 - `index.html` contains the site interface and logic.
 - `Business_Central_Updates.json` is the feature database loaded by the page.
 
-The site supports Italian and English, free-text search, dependent major/minor release filters, area filters, newest-first ordering, and feature details with official Microsoft documentation links.
+The site supports Italian and English, free-text search, dependent major/minor release filters, Product Area and Functional Area filters, newest-first ordering, and detailed feature cards. Details can include the **Microsoft official guide** link and a **Blog domain** link when available.
 
 ## Preview locally
 
@@ -23,4 +23,4 @@ Then open `http://localhost:8000`.
 
 To host this repository with GitHub Pages, choose the `main` branch and repository root in the repository's Pages settings. The repository can also be cloned and served by any static hosting provider.
 
-Live Sites version: https://bc.history.vanni-martignago.chatgpt.site/
+Live site: https://bc.history.martignago.it/
