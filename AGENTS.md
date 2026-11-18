@@ -49,7 +49,7 @@ The requested maintenance cadence is every Saturday. Check previously approved s
 ## Complementary sources
 
 - [Foxer — Business Central release updates](https://bc.foxer.pl/en/).
-- [Yun Zhu](https://yzhums.com/).
+- [Yun Zhu — Dynamics 365 Lab, Business Central archive](https://yzhums.com/category/dynamics365/dynamics365businesscentral/).
 - [Stefano Demiliani](https://demiliani.com/).
 - [Version Manager](https://blog.versionmanager.dk/).
 - [ArvyDev — Business Central release updates](https://arvydev.com/blog/business-central-2026-wave-2-whats-new/).

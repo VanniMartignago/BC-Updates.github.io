@@ -12625,15 +12625,15 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Brand document reports with report themes",
-    "description": "Lets organizations apply reusable themes containing design settings such as fonts and colors to supported Word report layouts for consistent branding.",
+    "description": "Applies a reusable Word theme with fonts and colors to document reports. Administrators can set a global default and override it by company, report, or body layout. Requires the Document Report Experience feature and a Word layout with the Body subtype.",
     "releaseStatus": "General availability",
     "previewDate": null,
     "gaDate": null,
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-0",
-    "officialDocumentation": null,
-    "blogSource": null
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts",
+    "blogSource": "https://yzhums.com/76147/"
   },
   {
     "majorVersion": "29",
@@ -12697,15 +12697,15 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Reuse header/footer layouts across document reports",
-    "description": "Combines a reusable header and footer with report-specific body layouts, so changes to the shared part apply to layouts that use it.",
+    "description": "Combines a reusable Word header and footer with the report body when the report runs. Administrators can assign approved parts globally or by company, report, or body layout. Requires the Document Report Experience feature and a Word layout with the Body subtype.",
     "releaseStatus": "General availability",
     "previewDate": null,
     "gaDate": null,
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-29-0",
-    "officialDocumentation": null,
-    "blogSource": null
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-set-up-report-themes-header-footer-layouts",
+    "blogSource": "https://yzhums.com/76231/"
   },
   {
     "majorVersion": "29",
