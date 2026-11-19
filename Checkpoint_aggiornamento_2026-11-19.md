@@ -916,3 +916,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified five focused Dynamics 365 Lab articles against their corresponding Microsoft release-plan pages. Added account-filtered currency adjustments, OneDrive file actions in AL, Help pane search, and links to posting setup errors. Updated the existing Teams record sharing entry and its dates.
 - V71 and JSON contain 854 matching records. V70 was archived byte-for-byte. Continue with the remaining October 2021 candidates and the 2022 release articles.
+
+## Checkpoint 17 — Initial April 2022 feature-specific article comparison
+
+- Verified six specific 2022 release wave 1 feature pages cited by Dynamics 365 Lab articles. Recorded the confirmed preview dates and April 1, 2022 general availability for default location dimensions, Copy Link, XML report datasets, the client profiler, multiple report layouts, and bank deposits.
+- V72 and JSON match at 860 records. V71 was archived byte-for-byte. Continue the remaining 2022 and later archive comparisons.
