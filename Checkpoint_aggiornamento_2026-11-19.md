@@ -1109,3 +1109,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified eight focused Dynamics 365 Lab discoveries against Microsoft release plans, and expanded the 22.0 posting preview entry. The individual AL Explorer and AL Home release plan confirms 22.0 availability, so the existing generic 23.0 entry was moved and expanded.
 - V78 and JSON match at 908 records. V77 was archived byte-for-byte. Remaining 2023 article comparisons and later archives are open.
+
+## Checkpoint 24 — Initial October 2023 feature comparison
+
+- Verified eight 23.0 features against Microsoft release plans. The 23.0 storage model consolidates fields in one companion table and is distinct from the subsequent 29.0 storage change. The ad hoc analysis query detail page did not open.
+- V79 and JSON contain 916 matching records. V78 was archived byte-for-byte.
