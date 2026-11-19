@@ -921,3 +921,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified six specific 2022 release wave 1 feature pages cited by Dynamics 365 Lab articles. Recorded the confirmed preview dates and April 1, 2022 general availability for default location dimensions, Copy Link, XML report datasets, the client profiler, multiple report layouts, and bank deposits.
 - V72 and JSON match at 860 records. V71 was archived byte-for-byte. Continue the remaining 2022 and later archive comparisons.
+
+## Checkpoint 18 — April 2022 reporting, client and Outlook features
+
+- Verified eight further Dynamics 365 Lab discoveries against their individual Microsoft release plans. Logged the April 3 date for the Store progressive web app and the April 1 dates for the other seven.
+- V73 and JSON contain 868 matching records. V72 was archived byte-for-byte. Archive comparison is still in progress.
