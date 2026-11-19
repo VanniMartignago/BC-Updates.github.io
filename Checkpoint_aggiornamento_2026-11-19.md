@@ -911,3 +911,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Resumed at the user’s explicit request and compared five feature-specific Dynamics 365 Lab articles against the existing version 19 entries. All five linked Microsoft release-plan pages confirmed general availability on October 1, 2021.
 - Added the source exposure policy, force schema synchronization, non-inventory locations, hierarchical posting preview, and base-unit rounding. V70 and the regenerated JSON contain 850 matching records. V69 was preserved byte-for-byte.
 - Remaining article comparisons and alternate blog indexes are still open.
+
+## Checkpoint 16 — Additional October 2021 features
+
+- Verified five focused Dynamics 365 Lab articles against their corresponding Microsoft release-plan pages. Added account-filtered currency adjustments, OneDrive file actions in AL, Help pane search, and links to posting setup errors. Updated the existing Teams record sharing entry and its dates.
+- V71 and JSON contain 854 matching records. V70 was archived byte-for-byte. Continue with the remaining October 2021 candidates and the 2022 release articles.
