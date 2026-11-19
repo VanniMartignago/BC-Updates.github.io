@@ -34,6 +34,8 @@ At each update, propose newly discovered sources for documenting versions 13 thr
 
 The requested maintenance cadence is every Saturday. Check previously approved sources and follow the versioning and verification rules above. Propose any newly discovered non-Microsoft source for the user's confirmation before adding it as a project source; do not add or rely on it as an approved source until confirmed. In an unattended run, record proposed sources for review and continue independent work using approved sources.
 
+If scanning all sources is expected to take more than 15 minutes, or if it reaches 15 minutes with sources still pending, divide the feature update into sessions. At the end of each session, summarize the sources reviewed, the work completed, and the next section to review, then ask the user for explicit confirmation before starting that section. This pause also applies to unattended runs. Resume from the recorded checkpoint after confirmation.
+
 ## Approved official Microsoft sources
 
 - [Microsoft Learn MCP server](https://learn.microsoft.com/api/mcp): use its search and document retrieval tools to consult official Microsoft documentation when more efficient than web browsing. Cite the underlying documentation page as the feature source, not the MCP endpoint. Use other approved sources when the MCP does not provide sufficient coverage.
