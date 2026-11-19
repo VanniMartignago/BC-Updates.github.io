@@ -154,3 +154,10 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Inventory Batch Posting in Dynamics NAV and BC · 200 · https://blog.versionmanager.dk/inventory-batch-posting-in-dynamics-nav-and-bc/
 - Case Study – Create a Webservice to print an invoice from a website · 200 · https://blog.versionmanager.dk/case-study-create-a-webservice-to-print-an-invoice-from-a-website/
 - Installing Dynamics NAV 2009 in different configurations · 200 · https://blog.versionmanager.dk/installing-dynamics-nav-2009-in-different-configurations/
+
+## Checkpoint 11 — Version 21 online service releases
+
+- The 21.4 notes list four independently deployed online administration features. Verified each specific release-plan page and recorded release dates without assigning a 21.4 minor version.
+- Opened 38 of 42 deduplicated Microsoft Learn targets from the generated comparison queue. One returned HTTP 404 and three could not be fetched. Candidate features linked from these pages still need individual reconciliation.
+- Consulted alternate sitemaps for complementary sources. Demiliani and RS WordPress sitemaps returned 674 and 694 URLs respectively. Counts are discovery totals, with feature-level review still pending.
+- Verified 835 matching records in V66 and JSON. V65 was archived byte-for-byte.
