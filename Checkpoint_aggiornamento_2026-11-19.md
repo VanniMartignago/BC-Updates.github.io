@@ -73,3 +73,84 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Compared parsed feature and localization sections against V63. The 145 text/link matches requiring review are a candidate queue, including repeated feature updates and unrelated service rollouts. This is not a complete feature-level review. The 21.4 note explicitly states that its separate February service releases do not require the 21.4 update.
 - Verified the [19.1 localization note](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-1) and [19.2 note](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-19-2). Added the December 2021 US Form 1099 format change and the new Norwegian electronic VAT return. Corrected Mexico Carta de Porte 2.0 from 19.3 to 19.2. Kept the later Norwegian workflow enhancement in 19.3.
 - V64 and the regenerated JSON contain 828 matching records. V63 is preserved byte-for-byte in the archive. Continue from the remaining source comparisons and complementary archives.
+
+## Checkpoint 10 — Complementary archives and April 2021 finance features
+
+- Opened the approved source entry points and alternate indexes. The scoped ArvyDev article returned a connection error. The other entry points opened, including both LinkedIn post URLs. Loading a page does not establish complete archive coverage.
+- Opened the 18 Version Manager index pages (home archive 1–8, Business Central category 1–7, and Featured category 1–3) and checked the post and category sitemaps. Retrieved 71 indexed URLs and extracted official links from article bodies. The full feature comparison is still in progress, and no generic roundup link was written to the Blog source field.
+- Verified four early candidates from Version Manager against individual Microsoft release-plan pages. Added three 18.0 capabilities for default dimensions, employee ledger payment application, and bank statement import. Expanded the existing G/L dimension correction entry using its specific release plan and functional guide.
+- V65 and its regenerated JSON contain 831 matching records. V64 is preserved byte-for-byte in the archive.
+
+### Version Manager article and site URLs opened
+
+- Business Central What’s New in Application BC18 to BC29 · 200 · https://blog.versionmanager.dk/business-central-whats-new-in-application-bc18-to-bc29/
+- Business Central What’s New in Application BC18 to BC28 · 200 · https://blog.versionmanager.dk/business-central-whats-new-in-application-bc18-to-bc28/
+- Stepping it up: Making Copilot create an API integration between Business Central and Shopify · 200 · https://blog.versionmanager.dk/stepping-it-up-making-copilot-create-an-api-integration-between-business-central-and-shopify/
+- How to make Copilot create your Business Central App · 200 · https://blog.versionmanager.dk/how-to-make-copilot-create-your-business-central-app/
+- The missing Final Costing report for production orders · 200 · https://blog.versionmanager.dk/the-missing-final-costing-report-for-production-orders/
+- Using Copilot to create the featured picture · 200 · https://blog.versionmanager.dk/using-copilot-to-create-the-featured-picture/
+- First run: Making Copilot create documentation for my solution · 200 · https://blog.versionmanager.dk/first-run-making-copilot-create-documentation-for-my-solution/
+- Absence Registration Overview · 200 · https://blog.versionmanager.dk/absence-registration-overview/
+- Customize your Headline Messages · 200 · https://blog.versionmanager.dk/customize-your-headline-messages/
+- Business Central What’s New in Application BC18 to BC27 · 200 · https://blog.versionmanager.dk/business-central-whats-new-in-application-bc18-to-bc27/
+- Standard costing Deep Dive in Business Central · 200 · https://blog.versionmanager.dk/standard-costing-deep-dive-in-business-central/
+- Average costing Deep Dive in Business Central · 200 · https://blog.versionmanager.dk/average-costing-deep-dive-in-business-central/
+- Removing the default checklist on the Role Center – or making your own! · 200 · https://blog.versionmanager.dk/removing-the-default-checklist-on-the-role-center-or-making-your-own/
+- Code upgrade from Dynamics NAV 2009 to the Cloud · 200 · https://blog.versionmanager.dk/code-upgrade-from-dynamics-nav-2009-to-the-cloud/
+- Upgrading from Dynamics NAV 2009 R2 Classic to BC25 in the cloud · 200 · https://blog.versionmanager.dk/upgrading-from-dynamics-nav-2009-r2-classic-to-bc25-in-the-cloud/
+- First and last experience with teaching the MB-820 5-day course. · 200 · https://blog.versionmanager.dk/__trashed-3/
+- 2 Ways of Controlling your upgrade and install code · 200 · https://blog.versionmanager.dk/2-ways-of-controlling-your-upgrade-and-install-code/
+- Scrapping items to different G/L accounts in Dynamics NAV and Business Central · 200 · https://blog.versionmanager.dk/scrapping-items-to-different-g-l-accounts-in-dynamics-nav-and-business-central/
+- First approval in a Business Central approver group approves all · 200 · https://blog.versionmanager.dk/first-approval-in-a-business-central-approver-group-approves-all/
+- Power BI – Choosing Company name in oData connection – Business Central version · 200 · https://blog.versionmanager.dk/power-bi-choosing-company-name-in-odata-connection-business-central-version/
+- Deprecation of User Groups and Introduction to the Composable Permission Sets · 200 · https://blog.versionmanager.dk/deprecation-of-user-groups-and-introduction-to-the-composable-permission-sets/
+- At last, my book is here · 200 · https://blog.versionmanager.dk/at-last-my-book-is-here/
+- Repairing a produced item after the order is finalized · 200 · https://blog.versionmanager.dk/repairing-a-produced-item-after-the-order-is-finalized/
+- Undoing purchase receipts after items have been moved · 200 · https://blog.versionmanager.dk/undoing-purchase-receipts-after-items-have-been-moved/
+- Missing objects in license or permissions? · 200 · https://blog.versionmanager.dk/missing-objects-in-license-or-permissions/
+- 10 ways to improve the profit in your Dynamics NAV department – Part 5 – Develop your employees · 200 · https://blog.versionmanager.dk/10-ways-to-improve-the-profit-in-your-dynamics-nav-department-part-5-develop-your-employees/
+- Automated deploy of apps to Business Central with dependencies · 200 · https://blog.versionmanager.dk/automated-deploy-of-apps-to-business-central-with-dependencies/
+- Visit my bookstore · 200 · https://blog.versionmanager.dk/visit-my-bookstore/
+- Updating your license file without restarting the servicetier · 200 · https://blog.versionmanager.dk/updating-your-license-file-without-restarting-the-servicetier/
+- How to add language layers in Business Central 15 · 200 · https://blog.versionmanager.dk/how-to-add-language-layers-in-business-central-15/
+- Accessing the BC base application in AL for searching and debugging · 200 · https://blog.versionmanager.dk/accessing-the-bc-base-application-in-al-for-searching-and-debugging/
+- Taking the modern client for a spin · 200 · https://blog.versionmanager.dk/taking-the-modern-client-for-a-spin/
+- Free Open-Source Translation tool for Dynamics 365 BC · 200 · https://blog.versionmanager.dk/free-open-source-translation-tool-for-dynamics-365-bc/
+- Implementing Milk Routes in Dynamics 365 Business Central · 200 · https://blog.versionmanager.dk/__trashed-4/
+- In case of Fire · 200 · https://blog.versionmanager.dk/in-case-of-fire/
+- Tips for Wizards · 200 · https://blog.versionmanager.dk/tips-for-wizards/
+- The Mysterious Update Unit Cost field in Dynamics 365 BC Production Orders · 200 · https://blog.versionmanager.dk/the-mysterious-update-unit-cost-field-in-dynamics-365-bc-production-orders/
+- Integrating manufacturing with advanced warehousing · 200 · https://blog.versionmanager.dk/__trashed-2/
+- Dynamics 365 Business Central Extensions– Under the hood · 200 · https://blog.versionmanager.dk/dynamics-365-business-central-extensions-under-the-hood/
+- Using infinite components in a Dynamics 365 BC production – Part 2 – The Withdraw · 200 · https://blog.versionmanager.dk/using-infinite-components-in-a-dynamics-365-bc-production-part-2-the-withdraw/
+- Infinite components in Dynamics 365 BC production · 200 · https://blog.versionmanager.dk/infinite-components-in-dynamics-365-bc-production/
+- Have you destroyed your SQL Backup plan today? · 200 · https://blog.versionmanager.dk/have-you-destroyed-your-sql-backup-plan-today/
+- Six months with extensions – Goodbye to the last DotNet · 200 · https://blog.versionmanager.dk/six-months-with-extensions-goodbye-to-the-last-dotnet/
+- Confessions of a dynamics nav 2018 upgrade · 200 · https://blog.versionmanager.dk/confessions-of-a-dynamics-nav-2018-upgrade/
+- Converting from cal to al in VS Code · 200 · https://blog.versionmanager.dk/converting-from-cal-to-al-in-vs-code/
+- Tips on Developing Dynamics NAV Invoice Reports · 200 · https://blog.versionmanager.dk/tips-on-developing-dynamics-nav-invoice-reports/
+- Developing extensions blindfolded in Dynamics NAV · 200 · https://blog.versionmanager.dk/developing-extensions-blindfolded-in-dynamics-nav/
+- Power BI – Choosing Company name in oData connection · 200 · https://blog.versionmanager.dk/power-bi-choosing-company-name-in-odata-connection/
+- 10 ways to improve the profit in your Dynamics NAV department – Part 4 – Outsource your development tasks · 200 · https://blog.versionmanager.dk/10-ways-to-improve-the-profit-in-your-dynamics-nav-department-part-4-outsource-your-development-tasks/
+- 10 ways to improve the profit in your Dynamics NAV department – Part 3 – Training the future consultants · 200 · https://blog.versionmanager.dk/10-ways-to-improve-the-profit-in-your-dynamics-nav-department-part-1-training-the-future-consultants/
+- 10 ways to improve the profit in your Dynamics NAV department – Part 2 -Hold on to your employees · 200 · https://blog.versionmanager.dk/10-ways-to-improve-the-profit-in-your-dynamics-nav-department-part-2-hold-on-to-your-employees/
+- 10 ways to improve the profit in your Dynamics NAV department – Part 1 · 200 · https://blog.versionmanager.dk/10-ways-to-improve-the-profit-in-your-dynamics-nav-department-part-1/
+- Inventory to G/L Reconciliation · 200 · https://blog.versionmanager.dk/inventory-to-g-l-reconciliation/
+- Accessing PowerBI Online with Dynamics NAV · 200 · https://blog.versionmanager.dk/accessing-powerbi-online-with-dynamics-nav/
+- Why %¤#”%¤#” did Dynamics NAV post on that G/L Account? · 200 · https://blog.versionmanager.dk/why-%c2%a4%c2%a4-did-dynamics-nav-post-on-that-g-l-account/
+- Why do end-users find Microsoft Dynamics NAV inaccessible? · 200 · https://blog.versionmanager.dk/why-do-end-users-find-microsoft-dynamics-nav-inaccessible/
+- Debugging Dynamics NAV in a side-by-side installation · 200 · https://blog.versionmanager.dk/debugging-dynamics-nav-in-a-side-by-side-installation/
+- Tips and Tricks using the Dynamics NAV Debugger · 200 · https://blog.versionmanager.dk/tips-and-tricks-using-the-dynamics-nav-debugger/
+- Automated preparation of Test Companies in Dynamics NAV · 200 · https://blog.versionmanager.dk/automated-preparation-of-test-companies-in-dynamics-nav/
+- Opening for charges purchased directly to the production · 200 · https://blog.versionmanager.dk/opening-for-charges-purchased-directly-to-the-production/
+- Checking your Dynamics NAV License and object versions · 200 · https://blog.versionmanager.dk/checking-your-dynamics-nav-license-and-object-versions/
+- Posting freight lines automatically from the WMS Shipment in Dynamics NAV · 200 · https://blog.versionmanager.dk/posting-freight-lines-automatically-from-the-wms-shipment-in-dynamics-nav/
+- Cancelling an active production order in Dynamics NAV · 200 · https://blog.versionmanager.dk/cancelling-an-active-production-order-in-dynamics-nav/
+- Strange fonts printing from a Terminal Server · 200 · https://blog.versionmanager.dk/strange-fonts-printing-from-a-terminal-server/
+- Using a mapped drive for backup in SQL server · 200 · https://blog.versionmanager.dk/using-a-mapped-drive-for-backup-in-sql-server/
+- Creating users in a restored database · 200 · https://blog.versionmanager.dk/creating-users-in-a-restored-database/
+- Using Queries with Reports and Pages · 200 · https://blog.versionmanager.dk/using-queries-with-reports-and-pages/
+- Upgrading Reports to Microsoft Dynamics NAV 2013 · 200 · https://blog.versionmanager.dk/upgrading-reports-to-microsoft-dynamics-nav-2013/
+- Inventory Batch Posting in Dynamics NAV and BC · 200 · https://blog.versionmanager.dk/inventory-batch-posting-in-dynamics-nav-and-bc/
+- Case Study – Create a Webservice to print an invoice from a website · 200 · https://blog.versionmanager.dk/case-study-create-a-webservice-to-print-an-invoice-from-a-website/
+- Installing Dynamics NAV 2009 in different configurations · 200 · https://blog.versionmanager.dk/installing-dynamics-nav-2009-in-different-configurations/
