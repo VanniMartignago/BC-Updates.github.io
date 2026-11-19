@@ -1104,3 +1104,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - 200 · https://yzhums.com/39915/
 - 200 · https://yzhums.com/39894/
 - 200 · https://yzhums.com/40506/
+
+## Checkpoint 23 — April 2023 warehouse, posting and AL features
+
+- Verified eight focused Dynamics 365 Lab discoveries against Microsoft release plans, and expanded the 22.0 posting preview entry. The individual AL Explorer and AL Home release plan confirms 22.0 availability, so the existing generic 23.0 entry was moved and expanded.
+- V78 and JSON match at 908 records. V77 was archived byte-for-byte. Remaining 2023 article comparisons and later archives are open.
