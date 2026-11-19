@@ -58,3 +58,11 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Compared the [2019 release wave 2 plan](https://learn.microsoft.com/en-us/previous-versions/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features) with existing version 15 entries. Added four 15.0 features using the released status and dates in the plan, with Microsoft documentation for functional details. Guessed direct archive paths for the individual features did not open.
 - The [version 15 update index](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/update-versions-15) confirms 15.1 and 15.5 builds and release months. Their legacy KB redirects, 4528699 and 4549678, did not load.
 - V62 and the regenerated JSON contain 821 matching records. V61 was archived byte-for-byte. Resume with the remaining version 15 plan entries and direct Support articles for 15.1 and 15.5, then verify the version 16 note series. Complementary blog archive coverage remains pending.
+
+## Checkpoint 8 — Business Central 15 and 16
+
+- Updated AGENTS.md so source review continues across checkpoints without a time limit. Pause only at the user’s explicit request.
+- The direct Support paths tested for 15.1 and 15.5 did not open. The historical release plan verifies three version 15 features added here.
+- Checked all six expected 16.0–16.5 Microsoft Learn URLs. The 16.0 URL did not open. Used the [2020 release wave 1 plan](https://learn.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features) and [on-premises release index](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/update-versions-16) for available evidence.
+- Reviewed the 16.1–16.5 feature sections. Recorded three additional version 16 features. Consolidated the duplicate Marketplace entries into one 16.3 general-availability entry with the staged 16.2 rollout documented. Moved Swiss QR-Bill management to the confirmed 16.0 release and retained the 14.13 branch history in its description.
+- V63 and JSON match at 826 records. Earlier workbook V62 is preserved in the archive. Continue from 17.0, with remaining historical gaps and complementary archive coverage recorded for follow-up.
