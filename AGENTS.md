@@ -2,6 +2,8 @@
 
 For each feature update, follow the official references cited by approved complementary sources and verify that they substantiate the specific feature before recording them. For each approved blog, review its entire Business Central feature coverage, including every page of relevant paginated archives and relevant posts found through other site indexes. Compare eligible features with the current workbook, verify the official references cited in each article, and record which pages were reviewed or could not be accessed. Mark coverage complete only after the entire relevant archive has been reviewed.
 
+Name each feature-update branch `update/bc-features-v<N>`, where `<N>` is the sequential workbook version reached by the update (for example, `update/bc-features-v80` for `Business_Central_Updates_V80.xlsx`). Use the version reached as the head branch when opening the update pull request.
+
 Title each update pull request `Added features XX, modified YY on DD-MM-YYYY`. After committing, show the user separate lists of added and modified feature titles. Wait for explicit approval before merging into main. After the merge, synchronize the local main with GitHub and verify both point to the same commit.
 
 If developing AL code in VS Code, follow `.github/copilot-istructions.md` when present.
