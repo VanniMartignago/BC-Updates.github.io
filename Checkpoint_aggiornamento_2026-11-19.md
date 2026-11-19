@@ -926,3 +926,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified eight further Dynamics 365 Lab discoveries against their individual Microsoft release plans. Logged the April 3 date for the Store progressive web app and the April 1 dates for the other seven.
 - V73 and JSON contain 868 matching records. V72 was archived byte-for-byte. Archive comparison is still in progress.
+
+## Checkpoint 19 — October 2022 feature-specific article comparison
+
+- Confirmed seven specific 21.0 release-plan features referenced by Dynamics 365 Lab articles. The DataTransfer release-plan legacy link did not open. Its official functional guide explicitly confirms support starting with 21.0.
+- V74 and JSON contain 876 matching records. V73 was archived byte-for-byte. Continue with the remaining 2022 release-plan candidates.
