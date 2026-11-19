@@ -1114,3 +1114,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified eight 23.0 features against Microsoft release plans. The 23.0 storage model consolidates fields in one companion table and is distinct from the subsequent 29.0 storage change. The ad hoc analysis query detail page did not open.
 - V79 and JSON contain 916 matching records. V78 was archived byte-for-byte.
+
+## Checkpoint 25 — Additional October 2023 feature-specific evidence
+
+- Verified nine additional 23.0 articles covering debugging, AL tooling, extension data, document navigation, analysis sharing, and intercompany workflows. The inline validation action is held for separate minor-version verification because its release-plan date differs.
+- V80 and JSON contain 925 matching records. V79 was archived byte-for-byte.
