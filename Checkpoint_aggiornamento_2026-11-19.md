@@ -936,3 +936,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified nine additional 21.0 feature pages cited by focused Dynamics 365 Lab articles. Recorded the September 1 preview and October 1 general availability for these features.
 - The dedicated DEV extension resource exposure plan did not open in this pass and remains to verify. V75 and JSON contain 885 matching records. V74 was archived byte-for-byte.
+
+## Checkpoint 21 — Additional 21.0 feature evidence
+
+- Verified seven focused Dynamics 365 Lab articles against the Microsoft release plan. Recorded the installation guide setup handoff separately from manually opening setup in Extension Management, and scoped the source exposure defaults specifically to the AL:Go! template.
+- V76 and JSON contain 892 matching records. V75 was archived byte-for-byte.
