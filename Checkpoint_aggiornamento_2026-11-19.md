@@ -161,3 +161,10 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Opened 38 of 42 deduplicated Microsoft Learn targets from the generated comparison queue. One returned HTTP 404 and three could not be fetched. Candidate features linked from these pages still need individual reconciliation.
 - Consulted alternate sitemaps for complementary sources. Demiliani and RS WordPress sitemaps returned 674 and 694 URLs respectively. Counts are discovery totals, with feature-level review still pending.
 - Verified 835 matching records in V66 and JSON. V65 was archived byte-for-byte.
+
+## Checkpoint 12 — Additional version 21, 23 and 25 release evidence
+
+- Added the Business Central Azure service tag from its independently released February 2023 feature plan, with no minor version.
+- The 23.1 and 25.4 notes identify 23.0 and 23.1 general availability for the extensible exchange rate adjustment and invoice posting interface. Recorded these separately from mandatory activation in 26.0.
+- The 25.4 notes identify Entra environment discovery and customer-managed encryption as online service updates. Used confirmed dates in their individual release plans and left the minor versions blank.
+- V67 and JSON contain 840 matching records. V66 was archived byte-for-byte. Other comparison candidates and the complementary archive checks remain open.
