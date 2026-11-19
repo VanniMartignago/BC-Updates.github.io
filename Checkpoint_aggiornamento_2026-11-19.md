@@ -931,3 +931,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Confirmed seven specific 21.0 release-plan features referenced by Dynamics 365 Lab articles. The DataTransfer release-plan legacy link did not open. Its official functional guide explicitly confirms support starting with 21.0.
 - V74 and JSON contain 876 matching records. V73 was archived byte-for-byte. Continue with the remaining 2022 release-plan candidates.
+
+## Checkpoint 20 — October 2022 AL tooling and application features
+
+- Verified nine additional 21.0 feature pages cited by focused Dynamics 365 Lab articles. Recorded the September 1 preview and October 1 general availability for these features.
+- The dedicated DEV extension resource exposure plan did not open in this pass and remains to verify. V75 and JSON contain 885 matching records. V74 was archived byte-for-byte.
