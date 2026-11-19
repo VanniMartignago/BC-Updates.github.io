@@ -34,7 +34,7 @@ At each update, propose newly discovered sources for documenting versions 13 thr
 
 The requested maintenance cadence is every Saturday. Check previously approved sources and follow the versioning and verification rules above. Propose any newly discovered non-Microsoft source for the user's confirmation before adding it as a project source; do not add or rely on it as an approved source until confirmed. In an unattended run, record proposed sources for review and continue independent work using approved sources.
 
-If scanning all sources is expected to take more than 15 minutes, or if it reaches 15 minutes with sources still pending, divide the feature update into sessions. At the end of each session, summarize the sources reviewed, the work completed, and the next section to review, then ask the user for explicit confirmation before starting that section. This pause also applies to unattended runs. Resume from the recorded checkpoint after confirmation.
+If scanning all sources is expected to take more than 30 minutes, or if it reaches 30 minutes with sources still pending, divide the feature update into sessions. At the end of each session, summarize the sources reviewed, the work completed, and the next section to review, then ask the user for explicit confirmation before starting that section. This pause also applies to unattended runs. Resume from the recorded checkpoint after confirmation.
 
 ## Approved official Microsoft sources
 
