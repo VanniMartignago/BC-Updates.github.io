@@ -941,3 +941,166 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 
 - Verified seven focused Dynamics 365 Lab articles against the Microsoft release plan. Recorded the installation guide setup handoff separately from manually opening setup in Extension Management, and scoped the source exposure defaults specifically to the AL:Go! template.
 - V76 and JSON contain 892 matching records. V75 was archived byte-for-byte.
+
+## Checkpoint 22 — April 2023 feature-specific article comparison
+
+- Retrieved 154 candidate 2023 articles, of which 144 returned HTTP 200. Verified eight focused 22.0 articles against their release plans. Recorded April public preview and October general availability for list analysis mode.
+- Kept the 22.5 posting-aggregation change distinct from the 23.1 Invoice Posting interface based on their documented scopes.
+- V77 and JSON match at 900 records. V76 was archived byte-for-byte. Candidate archive coverage remains open.
+
+### Candidate article paths checked
+
+- 200 · https://yzhums.com/47983/
+- 200 · https://yzhums.com/47566/
+- 200 · https://yzhums.com/47457/
+- 200 · https://yzhums.com/33939/
+- 200 · https://yzhums.com/46511/
+- 200 · https://yzhums.com/46089/
+- 200 · https://yzhums.com/34392/
+- 200 · https://yzhums.com/35080/
+- 200 · https://yzhums.com/35016/
+- 200 · https://yzhums.com/34996/
+- 200 · https://yzhums.com/34394/
+- 200 · https://yzhums.com/45428/
+- 200 · https://yzhums.com/45302/
+- 200 · https://yzhums.com/44340/
+- 200 · https://yzhums.com/35344/
+- 200 · https://yzhums.com/35321/
+- 200 · https://yzhums.com/35303/
+- 200 · https://yzhums.com/35292/
+- 200 · https://yzhums.com/35253/
+- 200 · https://yzhums.com/35196/
+- 200 · https://yzhums.com/35161/
+- 200 · https://yzhums.com/35137/
+- 200 · https://yzhums.com/35116/
+- 200 · https://yzhums.com/35702/
+- 200 · https://yzhums.com/35071/
+- 200 · https://yzhums.com/35633/
+- 200 · https://yzhums.com/35585/
+- 200 · https://yzhums.com/35566/
+- 200 · https://yzhums.com/35521/
+- 200 · https://yzhums.com/35497/
+- 200 · https://yzhums.com/35469/
+- 200 · https://yzhums.com/35438/
+- 200 · https://yzhums.com/44565/
+- 200 · https://yzhums.com/43658/
+- 200 · https://yzhums.com/43656/
+- 200 · https://yzhums.com/44279/
+- 200 · https://yzhums.com/44261/
+- 200 · https://yzhums.com/44033/
+- 200 · https://yzhums.com/43905/
+- 200 · https://yzhums.com/43758/
+- 200 · https://yzhums.com/36067/
+- 200 · https://yzhums.com/36026/
+- 200 · https://yzhums.com/35994/
+- 200 · https://yzhums.com/35434/
+- 200 · https://yzhums.com/35872/
+- 200 · https://yzhums.com/35838/
+- 200 · https://yzhums.com/35807/
+- 200 · https://yzhums.com/35758/
+- 200 · https://yzhums.com/35715/
+- 200 · https://yzhums.com/36707/
+- 200 · https://yzhums.com/36604/
+- 200 · https://yzhums.com/36607/
+- 200 · https://yzhums.com/36573/
+- 200 · https://yzhums.com/36362/
+- 200 · https://yzhums.com/36154/
+- 200 · https://yzhums.com/36279/
+- 200 · https://yzhums.com/36234/
+- 200 · https://yzhums.com/36087/
+- 200 · https://yzhums.com/43721/
+- 200 · https://yzhums.com/43703/
+- 200 · https://yzhums.com/43619/
+- 200 · https://yzhums.com/43623/
+- 200 · https://yzhums.com/43451/
+- 200 · https://yzhums.com/43539/
+- 200 · https://yzhums.com/43220/
+- 200 · https://yzhums.com/43379/
+- 200 · https://yzhums.com/42149/
+- 200 · https://yzhums.com/43374/
+- 200 · https://yzhums.com/43312/
+- 200 · https://yzhums.com/43297/
+- 200 · https://yzhums.com/43276/
+- 200 · https://yzhums.com/43256/
+- 200 · https://yzhums.com/43231/
+- 200 · https://yzhums.com/43183/
+- 200 · https://yzhums.com/43094/
+- 200 · https://yzhums.com/43146/
+- 200 · https://yzhums.com/43096/
+- 200 · https://yzhums.com/43076/
+- 200 · https://yzhums.com/37057/
+- 200 · https://yzhums.com/37053/
+- TypeError: fetch failed · https://yzhums.com/37013/
+- TypeError: fetch failed · https://yzhums.com/36996/
+- TypeError: fetch failed · https://yzhums.com/36837/
+- TypeError: fetch failed · https://yzhums.com/36832/
+- TypeError: fetch failed · https://yzhums.com/36861/
+- TypeError: fetch failed · https://yzhums.com/36846/
+- TypeError: fetch failed · https://yzhums.com/36797/
+- TypeError: fetch failed · https://yzhums.com/36738/
+- TypeError: fetch failed · https://yzhums.com/37372/
+- TypeError: fetch failed · https://yzhums.com/37226/
+- 200 · https://yzhums.com/37231/
+- 200 · https://yzhums.com/37192/
+- 200 · https://yzhums.com/36947/
+- 200 · https://yzhums.com/36168/
+- 200 · https://yzhums.com/43043/
+- 200 · https://yzhums.com/43022/
+- 200 · https://yzhums.com/42992/
+- 200 · https://yzhums.com/42941/
+- 200 · https://yzhums.com/42925/
+- 200 · https://yzhums.com/42902/
+- 200 · https://yzhums.com/42880/
+- 200 · https://yzhums.com/42857/
+- 200 · https://yzhums.com/42820/
+- 200 · https://yzhums.com/42795/
+- 200 · https://yzhums.com/42777/
+- 200 · https://yzhums.com/42728/
+- 200 · https://yzhums.com/42691/
+- 200 · https://yzhums.com/42632/
+- 200 · https://yzhums.com/42611/
+- 200 · https://yzhums.com/42578/
+- 200 · https://yzhums.com/42294/
+- 200 · https://yzhums.com/42522/
+- 200 · https://yzhums.com/42495/
+- 200 · https://yzhums.com/37934/
+- 200 · https://yzhums.com/35078/
+- 200 · https://yzhums.com/37820/
+- 200 · https://yzhums.com/37775/
+- 200 · https://yzhums.com/37426/
+- 200 · https://yzhums.com/37641/
+- 200 · https://yzhums.com/37444/
+- 200 · https://yzhums.com/38181/
+- 200 · https://yzhums.com/38086/
+- 200 · https://yzhums.com/30866/
+- 200 · https://yzhums.com/42472/
+- 200 · https://yzhums.com/42434/
+- 200 · https://yzhums.com/42408/
+- 200 · https://yzhums.com/42371/
+- 200 · https://yzhums.com/42367/
+- 200 · https://yzhums.com/42334/
+- 200 · https://yzhums.com/42298/
+- 200 · https://yzhums.com/42262/
+- 200 · https://yzhums.com/42223/
+- 200 · https://yzhums.com/42208/
+- 200 · https://yzhums.com/42193/
+- 200 · https://yzhums.com/42179/
+- 200 · https://yzhums.com/42164/
+- 200 · https://yzhums.com/42156/
+- 200 · https://yzhums.com/42118/
+- 200 · https://yzhums.com/42087/
+- 200 · https://yzhums.com/42065/
+- 200 · https://yzhums.com/42036/
+- 200 · https://yzhums.com/41989/
+- 200 · https://yzhums.com/38612/
+- 200 · https://yzhums.com/39116/
+- 200 · https://yzhums.com/38913/
+- 200 · https://yzhums.com/41962/
+- 200 · https://yzhums.com/41940/
+- 200 · https://yzhums.com/41907/
+- 200 · https://yzhums.com/41711/
+- 200 · https://yzhums.com/41617/
+- 200 · https://yzhums.com/39959/
+- 200 · https://yzhums.com/39915/
+- 200 · https://yzhums.com/39894/
+- 200 · https://yzhums.com/40506/
