@@ -5811,7 +5811,7 @@
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-2",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication",
-    "blogSource": null
+    "blogSource": "https://thatnavguy.com/blog/2022/d365-business-central-using-service-to-service-s2s-authentication-with-job-queue"
   },
   {
     "majorVersion": "21",
@@ -5983,15 +5983,15 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Restore deleted environments",
-    "description": "An environment that is deleted or scheduled for deletion after a trial expires is recoverable for seven days. An administrator can restore it from the Business Central administration center during that period.",
+    "description": "Administrators can recover a soft-deleted online environment from the Business Central admin center for up to seven days after deletion. This includes eligible deleted trial environments. Microsoft deployed the service capability independently of the 21.4 application update.",
     "releaseStatus": "General availability",
     "previewDate": null,
     "gaDate": "2023-02-14",
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/restore-deleted-environments",
-    "officialDocumentation": null,
-    "blogSource": null
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore",
+    "blogSource": "https://yzhums.com/34394/"
   },
   {
     "majorVersion": "21",

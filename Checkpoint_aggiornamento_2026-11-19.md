@@ -1161,3 +1161,10 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - For the next reconciliation, check the February service release for [restoring deleted environments](https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/restore-deleted-environments) and its [focused blog article](https://yzhums.com/34394/). The 21.4 note explicitly says this rollout does not require the minor update.
 - Retain Tacconi leads for later release checks: Truncate, LockTimeoutDuration, CreateSequentialGuid, index management, telemetry session IDs, and Base64 performance. The archive comparisons remain open.
 - V87 and JSON match at 936 records. V86 was archived byte-for-byte.
+
+## Checkpoint 32 — Service releases and historical archive scan
+
+- Added the focused [That NAV Guy S2S article](https://thatnavguy.com/blog/2022/d365-business-central-using-service-to-service-s2s-authentication-with-job-queue) to the existing [21.2 task-scheduling entry](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-2). Direct retrieval returned HTTP 200 while the web browser cache did not load the article.
+- Expanded restore deleted environments using the archived feature plan, the [21.4 update note](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-4), and the admin-center guide. The service release did not require the 21.4 application update, so its minor version remains blank.
+- Retrieved all 248 That NAV Guy article URLs from sitemap and RSS. All returned HTTP 200. Reviewed the 28 posts from 2023 and scanned the other 220 for release-plan and release-note references. Continue article-by-article comparison for the remaining years and verify the Microsoft references before recording changes.
+- V88 and JSON match at 936 records. V87 was archived byte-for-byte.
