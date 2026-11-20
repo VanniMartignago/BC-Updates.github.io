@@ -1187,3 +1187,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Added the [21.5 DataTransfer enhancement](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-5) and [22.0 collation support](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/allow-application-tenant-databases-differ-collation). Verified transactional OData batches in 17.1 and enriched the 18.3 authentication entry against Microsoft Learn using the Kauffmann articles.
 - Consolidated six redundant lifecycle rows into the retained GA entries for Intrastat country of origin, sustainability APIs, and the 2024 markets expansion using the 24.2–24.5 Microsoft notes. Preserved and clarified the distinct 26.3 Copilot Autofill accessibility change. Confirmed the 27.2 market expansion is distinct.
 - The pre-commit check matched all 936 Excel and JSON records and found no duplicate normalized titles or duplicate normalized descriptions within the same country scope. V89–V91 were archived unchanged during the V90–V92 updates.
+
+## Checkpoint 36 — Blog source eligibility
+
+- Screened 113 linked articles. Removed the BC30 OData endpoint retirement record and cleared the blog link from the 17.1 transactional batch entry after user approval. Microsoft guidance still verifies the 17.1 capability.
+- V93 and JSON match at 935 records. The pre-commit check found no duplicate normalized titles or descriptions within the same country scope. V92 was archived byte-for-byte.
