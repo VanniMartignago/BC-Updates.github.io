@@ -2967,7 +2967,7 @@
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips#odata-transactional-batch-requests",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/webservices/use-odata-batch",
-    "blogSource": "https://www.kauffmann.nl/2020/12/22/batch-calls-with-business-central-2-error-handling/"
+    "blogSource": null
   },
   {
     "majorVersion": "17",
@@ -16720,24 +16720,6 @@
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-platform#changes-in-2027-release-wave-1-version-300",
     "officialDocumentation": null,
     "blogSource": null
-  },
-  {
-    "majorVersion": "30",
-    "minorVersion": "30.0",
-    "releaseWave": "2027 release wave 1",
-    "productArea": "Service and platform",
-    "countryRegion": null,
-    "functionalArea": null,
-    "feature": "Remove ability to expose a Microsoft page as an OData endpoint",
-    "description": "Starting in Business Central version 30.0, Microsoft-published UI pages can no longer be exposed as OData endpoints. This can break integrations that rely on endpoints for pages from Microsoft apps, including Base Application and first-party apps. To continue using OData, copy the required page into an extension and expose that page, or use a supported API.",
-    "releaseStatus": "Planned",
-    "previewDate": null,
-    "gaDate": null,
-    "cloud": "Yes",
-    "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-platform#changes-in-2027-release-wave-1-version-300",
-    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-publish-web-service",
-    "blogSource": "https://yzhums.com/77505/"
   },
   {
     "majorVersion": "30",
