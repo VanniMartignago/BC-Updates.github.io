@@ -42,6 +42,8 @@ Continue feature updates across sources and recorded checkpoints without a time 
 
 Use the `https://learn.microsoft.com/en-us/` form for Microsoft Learn documentation and release-note URLs in the workbook, generated JSON, and project documentation.
 
+Before every repository commit, check the current workbook and the regenerated JSON for duplicate features. Compare new and modified entries with all current records, using normalized titles, descriptions, release history, country or region, and source references to identify equivalent entries with different wording. Resolve confirmed duplicates before committing and preserve distinct enhancements or localized implementations. Record the verification in the update checkpoint.
+
 ## Sources
 
 Consult [Business Central sources](Fonti_Business_Central.md) for the approved official and complementary sources before researching or updating features.
