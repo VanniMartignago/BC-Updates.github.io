@@ -13,7 +13,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/high-productivity-user-experience",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/high-productivity-user-experience",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -31,7 +31,7 @@
     "gaDate": "Oct 2018",
     "cloud": null,
     "onPrem": null,
-    "primarySource": "https://learn.microsoft.com/de-de/business-applications-release-notes/october18/dynamics365-business-central/",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -85,7 +85,7 @@
     "gaDate": "Oct 2018",
     "cloud": null,
     "onPrem": null,
-    "primarySource": "https://learn.microsoft.com/de-de/business-applications-release-notes/october18/dynamics365-business-central/",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -103,7 +103,7 @@
     "gaDate": "2018-10-01",
     "cloud": "No",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/enhanced-power-bi-embed-experience",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/enhanced-power-bi-embed-experience",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -175,7 +175,7 @@
     "gaDate": "Oct 2018",
     "cloud": null,
     "onPrem": null,
-    "primarySource": "https://learn.microsoft.com/de-de/business-applications-release-notes/october18/dynamics365-business-central/",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -265,7 +265,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "No",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/late-payment-prediction",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/late-payment-prediction",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-extensions-late-payment-prediction",
     "blogSource": null
   },
@@ -283,7 +283,7 @@
     "gaDate": "2018-10-01",
     "cloud": "No",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/support-for-azure-sql-database-managed-instance",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/support-for-azure-sql-database-managed-instance",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central",
     "blogSource": null
   },
@@ -301,7 +301,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -319,7 +319,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -337,7 +337,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/simpler-workflows-across-business-areas",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -355,7 +355,7 @@
     "gaDate": "2018-10-01",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/editablepermissionsets",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/editablepermissionsets",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-users-permissions",
     "blogSource": null
   },
@@ -463,7 +463,7 @@
     "gaDate": "2019-01",
     "cloud": null,
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/october18/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/planned-features",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
     "blogSource": null
   },
@@ -769,7 +769,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-dimensions",
     "blogSource": null
   },
@@ -787,7 +787,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -805,7 +805,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -823,7 +823,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -841,7 +841,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -859,7 +859,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks",
     "blogSource": null
   },
@@ -877,7 +877,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -895,7 +895,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -913,7 +913,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -931,7 +931,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -949,7 +949,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -967,7 +967,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -985,7 +985,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1003,7 +1003,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1021,7 +1021,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1039,7 +1039,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1057,7 +1057,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1075,7 +1075,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1093,7 +1093,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -1111,7 +1111,7 @@
     "gaDate": "2019-04",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/fr-fr/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
+    "primarySource": "https://learn.microsoft.com/en-us/business-applications-release-notes/april19/dynamics365-business-central/application-enhancements",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4441,7 +4441,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4459,7 +4459,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4477,7 +4477,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4495,7 +4495,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4513,7 +4513,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4531,7 +4531,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4549,7 +4549,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4567,7 +4567,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4585,7 +4585,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4603,7 +4603,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -4621,7 +4621,7 @@
     "gaDate": "Apr 1 2022",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-ie/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6043,7 +6043,7 @@
     "gaDate": "Non indicata",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6061,7 +6061,7 @@
     "gaDate": "Non indicata",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6079,7 +6079,7 @@
     "gaDate": "Apr 1 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6097,7 +6097,7 @@
     "gaDate": "Apr 1 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6115,7 +6115,7 @@
     "gaDate": "Apr 1 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6133,7 +6133,7 @@
     "gaDate": "2023 wave 1",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6151,7 +6151,7 @@
     "gaDate": "2023 wave 1",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-au/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6871,7 +6871,7 @@
     "gaDate": "Oct 3 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6889,7 +6889,7 @@
     "gaDate": "Oct 3 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6907,7 +6907,7 @@
     "gaDate": "Nov 1 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6925,7 +6925,7 @@
     "gaDate": "Oct 2 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6943,7 +6943,7 @@
     "gaDate": "Oct 3 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6961,7 +6961,7 @@
     "gaDate": "Non indicata",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6979,7 +6979,7 @@
     "gaDate": "Apr 2 2024",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -6997,7 +6997,7 @@
     "gaDate": "Oct 3 2023",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -7015,7 +7015,7 @@
     "gaDate": "Successiva",
     "cloud": "Yes",
     "onPrem": "No/Cloud",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -7033,7 +7033,7 @@
     "gaDate": "2023 wave 2",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -7051,7 +7051,7 @@
     "gaDate": "2023 wave 2",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -7069,7 +7069,7 @@
     "gaDate": "2023 wave 2",
     "cloud": "Yes",
     "onPrem": "Yes",
-    "primarySource": "https://learn.microsoft.com/en-nz/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features",
     "officialDocumentation": null,
     "blogSource": null
   },
@@ -7099,14 +7099,14 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Receive more items than ordered with inventory put-away documents",
-    "description": "Inventory put-away documents support receiving a quantity greater than the purchase order quantity when the applicable over-receipt rules allow it.",
+    "description": "In basic warehouses that handle receipts order by order, staff can record extra units on an inventory put-away when the assigned over-receipt code permits the quantity. Business Central tracks the excess and enforces the configured tolerance. Any adjustment to the vendor invoice is handled separately.",
     "releaseStatus": "General availability",
     "previewDate": "2023-09-08",
     "gaDate": "2023-10-02",
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/receive-more-items-than-ordered-using-inventory-put-away-documents",
-    "officialDocumentation": null,
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/design-details-warehouse-management",
     "blogSource": "https://yzhums.com/43619/"
   },
   {
@@ -7153,14 +7153,14 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Improve inventory count and adjustment workflows",
-    "description": "Updates to inventory counting and adjustment processes make data easier to access and allow items to be included in physical inventory orders regardless of availability or turnover.",
+    "description": "Physical inventory orders can include items with no transactions at the chosen location. Item references help identify items on count orders and recordings. Inventory Setup can enable the quick Adjust Inventory action, which lets staff enter the actual quantity when concurrent postings change stock. Corrective inventory receipts and shipments can reverse quantities while retaining the original entry type.",
     "releaseStatus": "General availability",
     "previewDate": "2023-09-08",
     "gaDate": "2023-10-02",
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/improved-processes-inventory-counts-adjustments",
-    "officialDocumentation": null,
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-count-inventory-with-documents",
     "blogSource": "https://yzhums.com/43312/"
   },
   {
@@ -7399,6 +7399,24 @@
   },
   {
     "majorVersion": "23",
+    "minorVersion": "23.0",
+    "releaseWave": "2023 release wave 2",
+    "productArea": "Onboarding",
+    "countryRegion": null,
+    "functionalArea": null,
+    "feature": "Demo tool and data for service scenarios",
+    "description": "The Contoso Coffee demo extension generates service management setup and sample records to demonstrate repairs and service contracts. The walkthroughs require the Premium experience. On-premises installations receive the demo tool and data as source code on the product media.",
+    "releaseStatus": "General availability",
+    "previewDate": "2023-09-08",
+    "gaDate": "2023-10-02",
+    "cloud": "Yes",
+    "onPrem": "Yes",
+    "primarySource": "https://learn.microsoft.com/en-us/previous-versions/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/demo-tool-data-service-scenarios",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/contoso-coffee/service/contoso-coffee-service-intro",
+    "blogSource": "https://yzhums.com/43539/"
+  },
+  {
+    "majorVersion": "23",
     "minorVersion": "23.1",
     "releaseWave": "2023 release wave 2",
     "productArea": "Adapt faster with Microsoft Power Platform",
@@ -7459,15 +7477,15 @@
     "countryRegion": null,
     "functionalArea": null,
     "feature": "Use actions to go to or fix errors inline",
-    "description": "Adds actions to validation dialogs that can navigate users to the relevant setup or help resolve a problem directly.",
+    "description": "Inline field validation can offer actions that take users to the page where they can resolve an error or apply a correction when Business Central can determine one. For example, a general journal approver can open the approval comments or reject the approval to allow changes. Users can also revert the invalid edit or copy the technical details for troubleshooting.",
     "releaseStatus": "General availability",
     "previewDate": "2023-09-06",
     "gaDate": "2023-11-03",
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1",
-    "officialDocumentation": null,
-    "blogSource": null
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-actionable-errors",
+    "blogSource": "https://yzhums.com/42880/"
   },
   {
     "majorVersion": "23",
@@ -7522,6 +7540,60 @@
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1",
     "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example",
     "blogSource": null
+  },
+  {
+    "majorVersion": "23",
+    "minorVersion": "23.1",
+    "releaseWave": "2023 release wave 2",
+    "productArea": "Country/region",
+    "countryRegion": "Spain",
+    "functionalArea": "Finance",
+    "feature": "Spain — Add invoice counts and amounts to the Vendor - Overdue Payments report",
+    "description": "The Spanish Vendor - Overdue Payments report (10748) includes monetary amounts and the count and share of paid invoices relative to total invoices, supporting statutory late-payment reporting. Microsoft also shipped the change on the 22.7 on-premises line.",
+    "releaseStatus": "General availability",
+    "previewDate": null,
+    "gaDate": null,
+    "cloud": "Yes",
+    "onPrem": "Yes",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1#localization-updates",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/localfunctionality/spain/calculating-due-dates#overdue-payments",
+    "blogSource": null
+  },
+  {
+    "majorVersion": "23",
+    "minorVersion": "23.1",
+    "releaseWave": "2023 release wave 2",
+    "productArea": "Country/region",
+    "countryRegion": "Spain",
+    "functionalArea": "Finance",
+    "feature": "Spain — Use non-deductible and partly deductible VAT in SII reporting",
+    "description": "The Spanish localization supports the global non-deductible VAT functionality for purchases with fully or partly non-deductible VAT, including VAT and SII reporting. Enable the feature in VAT Setup and configure the non-deductible percentage in VAT Posting Setup. Microsoft also shipped the change on the 22.7 on-premises line.",
+    "releaseStatus": "General availability",
+    "previewDate": null,
+    "gaDate": null,
+    "cloud": "Yes",
+    "onPrem": "Yes",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1#localization-updates",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-setup-nondeductible-vat",
+    "blogSource": null
+  },
+  {
+    "majorVersion": "23",
+    "minorVersion": "23.1",
+    "releaseWave": "2023 release wave 2",
+    "productArea": "Governance and administration",
+    "countryRegion": null,
+    "functionalArea": null,
+    "feature": "Automatically update Marketplace apps with minor updates",
+    "description": "Administrators can set an online environment to apply Marketplace app updates during minor as well as major Business Central updates. They can also schedule individual app updates for the next environment update window. The cadence applies to Marketplace apps.",
+    "releaseStatus": "General availability",
+    "previewDate": null,
+    "gaDate": "2023-10-31",
+    "cloud": "Yes",
+    "onPrem": "No",
+    "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-1#automatically-update-marketplace-apps-with-minor-updates",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-apps",
+    "blogSource": "https://yzhums.com/44261/"
   },
   {
     "majorVersion": "23",
@@ -11570,7 +11642,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-4",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/autofill-fields-with-copilot#about-web-search",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/autofill-fields-with-copilot#about-web-search",
     "blogSource": null
   },
   {
@@ -11588,7 +11660,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-26-4",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent",
     "blogSource": null
   },
   {
@@ -13046,7 +13118,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-27-1",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp#generating-recurring-purchase-lines",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp#generating-recurring-purchase-lines",
     "blogSource": null
   },
   {
@@ -14540,7 +14612,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/admin-optimize-text-search-language",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-optimize-text-search-language",
     "blogSource": null
   },
   {
@@ -14558,7 +14630,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/sales-order-agent",
     "blogSource": null
   },
   {
@@ -14576,7 +14648,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation#print-inspection-reports",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/qms-manual-test-creation#print-inspection-reports",
     "blogSource": null
   },
   {
@@ -14594,7 +14666,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-2",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/qms-contoso-coffee-demo-data",
     "blogSource": null
   },
   {
@@ -14630,7 +14702,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-3",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-configuration-page",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/expense-management/expense-agent-configuration-page",
     "blogSource": null
   },
   {
@@ -14648,7 +14720,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-3",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup#try-payables-agent-with-free-trial-mode",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/payables-agent-setup#try-payables-agent-with-free-trial-mode",
     "blogSource": null
   },
   {
@@ -14720,7 +14792,7 @@
     "cloud": "Yes",
     "onPrem": null,
     "primarySource": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-28-3",
-    "officialDocumentation": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-customers#b2b-companies",
+    "officialDocumentation": "https://learn.microsoft.com/en-us/dynamics365/business-central/shopify/synchronize-customers#b2b-companies",
     "blogSource": null
   },
   {
