@@ -42,30 +42,6 @@ Continue feature updates across sources and recorded checkpoints without a time 
 
 Use the `https://learn.microsoft.com/en-us/` form for Microsoft Learn documentation and release-note URLs in the workbook, generated JSON, and project documentation.
 
-## Approved official Microsoft sources
+## Sources
 
-- [Microsoft Learn MCP server](https://learn.microsoft.com/api/mcp): use its search and document retrieval tools to consult official Microsoft documentation when more efficient than web browsing. Cite the underlying documentation page as the feature source, not the MCP endpoint. Use other approved sources when the MCP does not provide sufficient coverage.
-- [Business Central documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/) and [product news](https://learn.microsoft.com/en-us/dynamics365/business-central/product-news): product documentation and released updates.
-- The [verified Microsoft Learn update release notes](Microsoft_Learn_Release_Notes.md) and all other available official pages matching `https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-{major}-{minor}` are approved primary sources. Check for newly published pages when updating. Verify each page exists and check its feature status and any version-independent service-feature notes before assigning an introduction version.
-- [Microsoft 365 roadmap](https://www.microsoft.com/it-it/microsoft-365/roadmap?filters=%5B%22Dynamics+365+Business+Central%22%5D#Roadmap): planned features; dates and scope can change.
-- [Historical release plans](https://learn.microsoft.com/en-us/previous-versions/dynamics365/release-plan/2025wave2/) and other Microsoft release-plan archives: historical features and planned dates.
-- [Microsoft Support Business Central updates](https://support.microsoft.com/en-us/servicing/dynamics/business-central/released-updates-for-microsoft-dynamics-365-business-central-2026-release-wave-1): update dates, builds, fixes, and regulatory changes. Consult the page for the relevant version; a cumulative update entry is not automatically a new feature.
-- [Official Dynamics 365 Business Central blog](https://www.microsoft.com/en-us/dynamics-365/blog/product/dynamics-365-business-central/?sort-by=newest-oldest): announcements and context; corroborate availability and dates with product documentation when possible.
-- [Microsoft BCApps releases](https://github.com/microsoft/BCApps/releases): application and technical changes; a changelog entry alone does not establish general availability.
-- [Official Business Central LinkedIn posts](https://www.linkedin.com/company/microsoft-dynamics-365-business-central/posts/?feedView=all): announcements and leads for further verification.
-
-## Complementary sources
-
-- [Foxer — Business Central release updates](https://bc.foxer.pl/en/).
-- [Yun Zhu — Dynamics 365 Lab, Business Central archive](https://yzhums.com/category/dynamics365/dynamics365businesscentral/).
-- [Stefano Demiliani](https://demiliani.com/).
-- [Version Manager](https://blog.versionmanager.dk/).
-- [ArvyDev — Business Central release updates](https://arvydev.com/blog/business-central-2026-wave-2-whats-new/).
-- [Daxly — Business Central release updates](https://www.daxly.io/blog/whats-coming-business-central-2026-wave-2/).
-- [RS Business Central Blog](https://blogbcrs.wordpress.com/).
-- [Business Central Musings](https://svirlan.com/mvp-year-in-review-2026/).
-- [Rand Group — Business Central release updates](https://www.randgroup.com/insights/microsoft/dynamics-365/business-central/key-features-and-updates-in-the-2025-release-wave-1-of-business-central/).
-- [Stuart Hardman — Business Central release updates on LinkedIn](https://www.linkedin.com/posts/stuart-hardman_businesscentral-msdyn365bc-erp-activity-7448309075483873280-bA78).
-- [Kennie Nybo Pontoppidan — Business Central release videos on LinkedIn](https://www.linkedin.com/posts/kennie_msdyn365bc-activity-7445108586155925505-c7nA).
-
-Use these non-official sources for additional detail and examples; prefer Microsoft documentation when available.
+Consult [Business Central sources](Fonti_Business_Central.md) for the approved official and complementary sources before researching or updating features.
