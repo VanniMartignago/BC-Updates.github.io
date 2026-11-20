@@ -1168,3 +1168,8 @@ After confirmation, resume with the remaining version 13 cumulative updates and 
 - Expanded restore deleted environments using the archived feature plan, the [21.4 update note](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-4), and the admin-center guide. The service release did not require the 21.4 application update, so its minor version remains blank.
 - Retrieved all 248 That NAV Guy article URLs from sitemap and RSS. All returned HTTP 200. Reviewed the 28 posts from 2023 and scanned the other 220 for release-plan and release-note references. Continue article-by-article comparison for the remaining years and verify the Microsoft references before recording changes.
 - V88 and JSON match at 936 records. V87 was archived byte-for-byte.
+
+## Checkpoint 33 — Danish production company deletion
+
+- Added the original production company deletion restriction documented in the [23.2 online update](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-23-2#localization-updates) and [NemHandel registration guide](https://learn.microsoft.com/en-us/dynamics365/business-central/localfunctionality/denmark/how-to-nemhandel-register). The 23.2 on-premises support article did not verify this specific restriction. Retained the separate 27.1 exception for companies without general ledger entries.
+- V89 and JSON match at 937 records. V88 was archived byte-for-byte. Continue the remaining Denmark 23.2 E-Documents rows and the complementary archive reconciliation.
