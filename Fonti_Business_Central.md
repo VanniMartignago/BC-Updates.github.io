@@ -1,6 +1,6 @@
 # Business Central sources
 
-Consult the [source scan archive](archivio_fonti/README.md) before opening an index, article, or linked reference. The register tracks prior access separately from source approval and feature verification.
+Check the [list of scanned URLs](archivio_fonti/url_scansionati.txt) before opening an index, article, or linked reference.
 
 ## Approved official Microsoft sources
 
