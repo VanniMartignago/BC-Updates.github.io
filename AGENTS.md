@@ -4,9 +4,13 @@ At the start of each research session, assess whether subagents can update Busin
 
 For each feature update, follow the official references cited by approved complementary sources and verify that they substantiate the specific feature before recording them. For each approved blog, review its entire Business Central feature coverage, including every page of relevant paginated archives and relevant posts found through other site indexes. Compare eligible features with the current workbook, verify the official references cited in each article, and record which pages were reviewed or could not be accessed. Mark coverage complete only after the entire relevant archive has been reviewed.
 
+Before opening a source URL, check [the source scan archive](archivio_fonti/README.md). Skip pages already retrieved or scanned unless the user explicitly asks to revisit them. Use recorded findings and existing local extracts for further analysis. Continue with new URLs and pending discovery, and record each new index, article, linked reference, and unsuccessful access attempt as work progresses. Apply this rule to scheduled maintenance and to known release-note paths. Record the scan scope so that access, feature verification, and complete archive coverage can be distinguished.
+
 Name each feature-update branch `update/bc-features-v<N>`, where `<N>` is the sequential workbook version reached by the update (for example, `update/bc-features-v80` for `Business_Central_Updates_V80.xlsx`). When the user explicitly asks to close the session, commit and push the verified workbook and its regenerated JSON on the branch for the version reached, then open the update pull request against main using that branch as its head. Closing the session does not authorize merging. At the end of the session, show the pull request and explicitly ask the user to confirm the merge into main. Merge only after that confirmation.
 
 Title each update pull request `Added features XX, modified YY on DD-MM-YYYY`. After committing, show the user separate lists of added and modified feature titles. Wait for explicit approval before merging into main. After the merge, synchronize the local main with GitHub and verify both point to the same commit.
+
+For every pull request, create one Markdown session changelog under `log_pr/` before committing and include it in the pull request. Name it `YYYY-MM-DD-<branch-slug>.md`, with slashes in the head branch replaced by hyphens. Record the session scope, the baseline and resulting workbook when applicable, separate lists of added and modified features, any other project changes, verification results, and outstanding items. Record zero where a feature category has no changes. Link the changelog in the pull request description.
 
 If developing AL code in VS Code, follow `.github/copilot-istructions.md` when present.
 
@@ -38,7 +42,7 @@ At each update, propose newly discovered sources for documenting versions 13 thr
 
 The requested maintenance cadence is every Saturday. Check previously approved sources and follow the versioning and verification rules above. Propose any newly discovered non-Microsoft source for the user's confirmation before adding it as a project source; do not add or rely on it as an approved source until confirmed. In an unattended run, record proposed sources for review and continue independent work using approved sources.
 
-Continue feature updates across sources and recorded checkpoints without a time limit. Pause when the user explicitly asks to pause or stop, or when the session has consumed 50% of the token budget available at its start, if the runtime exposes enough information to measure that threshold. If the token budget or usage is unavailable, rely on the user’s explicit instruction to pause or stop. Keep the checkpoint current so work can resume from the recorded point.
+Continue feature updates across sources and recorded checkpoints without a time limit while requested work remains. Pause when the user explicitly asks to pause or stop, or when the remaining token budget falls below 25% of the budget available at the start of the session, if the runtime exposes enough information to measure that threshold. If token budget or usage is unavailable, use no estimated token cutoff. Keep the checkpoint current so work can resume from the recorded point.
 
 Use the `https://learn.microsoft.com/en-us/` form for Microsoft Learn documentation and release-note URLs in the workbook, generated JSON, and project documentation.
 

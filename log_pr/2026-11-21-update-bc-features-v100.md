@@ -1,0 +1,1048 @@
+# Session changelog — 2026-11-21
+
+- Pull request branch: `update/bc-features-v100`.
+- Baseline: V93 on main, with 935 entries. Result: V100, with 1,026 entries.
+- Normalized preview and general-availability dates to English month and year.
+- Added the Change type column, regenerated JSON, and enabled the site filter and detail labels.
+- Updated the source scan archive to 5944 URL records, including 4082 with a recorded scan, 488 retrieved, 245 unavailable and 1129 discovered.
+- Replaced the old token rule with a pause below 25% remaining when measurable.
+- Verified workbook-to-JSON parity and checked normalized title and description duplicates by country. Reconciled known lifecycle overlaps, including aliases from the date audit.
+- Open work: complete feature-level comparison of complementary articles and their linked evidence, find alternative routes to unavailable historic KBs, and reconcile the conflicting Mexico DIOT minor-release evidence.
+
+## Added features (94)
+
+- Replace Codeunit 1 with system events
+- Show a work date reminder
+- Show automatic save status on cards and documents
+- Support SQL Server data compression
+- Declare multiple unique secondary keys in AL
+- Relax the 8 KB row-size limit for variable-length text
+- Increase maximum length of AL text and code values
+- Avoid unnecessary joins for record count and emptiness checks
+- Push OData row limits to SQL Server
+- Improve RDLC report performance in sandbox environments
+- View SQL database activity in the AL debugger
+- Use additional keyboard shortcuts in the desktop web client
+- Check previous credits when correcting posted sales invoices
+- Record ISO codes for countries and currencies
+- Create multiple cloud sandbox environments
+- View payment information on customer and vendor statistics FactBoxes
+- End support for FLF license files on-premises
+- Add Registration No. to contacts
+- Spain — Close non-taxable entries for VAT reporting
+- France — Add mandatory information to sales invoices
+- End support for the OAuth password grant in Business Central online
+- Spain — Prevent duplicate SII submissions from concurrent job queues
+- Denmark — Use a Microsoft-managed certificate for electronic VAT drafts
+- Switch API change tracking from delta links to webhooks
+- Require a version 25 upgrade step before migrating or upgrading from version 14
+- Spain — Update the SII CSV format
+- Germany — Support the German Peppol BIS 3 e-invoice format
+- Belgium — Support the Belgian Peppol BIS 3 e-invoice format
+- Include AL system symbols with Business Central Server
+- Deprecation of the legacy Custom Report Layouts page
+- Germany — Update Intrastat XML for eSTATISTIK.CORE
+- Switzerland — Import Swiss bank clearing numbers in CSV format
+- Spain — Use regional SII endpoints
+- Recent Record virtual table
+- Removal of the legacy Custom Report Layouts page
+- End support for administering Business Central with Windows PowerShell 5
+- Remove the on-premises option to use data-defined permission sets only
+- Remove SOAP publishing for Microsoft UI pages
+- Remove OData publishing for Microsoft UI pages
+- Standardize activity groups in selected Role Centers
+- Remove the legacy Windows client
+- Replace legacy user personalization and profile configuration
+- Remove the legacy Excel COM add-in
+- Remove Windows-client programmatic printing
+- Allow gaps in number series
+- Deprecate ADAL and Azure AD Graph for Business Central integrations
+- Register work-center capacity in seconds
+- Configure advanced planning parameters in Essentials
+- Use read-only database access for frequently used reports
+- Disable legacy Integration Records generation
+- Deprecate .NET Framework-based add-ins
+- Warn against exposing UI pages as SOAP endpoints
+- Remove OData V3 support
+- Remove the legacy on-premises Help Server component
+- Replace the Universal Windows Platform client with a progressive web app
+- Deprecate the Business Central Server Administration tool
+- Stop allowing StartSession in upgrade or install contexts
+- Remove the beta version of standard APIs
+- Remove the beta version of Automation APIs
+- Remove legacy Outlook data synchronization
+- Deprecate nativeInvoicing APIs
+- Use multiple remit-to addresses for vendor check payments
+- Use statistical accounts in financial reports
+- Netherlands — Apply the vendor blocking flag to telebanking payments
+- France — Use transaction numbers for invoice entries in the FEC export
+- Denmark — Map general ledger accounts to the standard chart of accounts
+- Spain — Report invoice counts and amounts for overdue vendor balances
+- United States — Use the updated IRS Form 1096 layout
+- Switzerland — Use ciphers 303 and 383 on the VAT statement
+- Denmark — Lock the company CVR number after NemHandel validation
+- Mexico — Support the Comercio Exterior 2.0 complement for CFDI 4.0
+- Switzerland — Use the Swiss SEPA direct debit pain.008.001.02.ch03 format
+- Denmark — Include the Danish scheme ID in Peppol files
+- Italy — Include vendor exemption amounts in the Declaration of Intent export
+- Italy — Report vendors in deny-listed jurisdictions
+- Mexico — Upgrade the Carta Porte complement to version 3.1
+- Schedule item cost adjustment and posting with assisted setup
+- Review inventory availability by lot
+- Adjust stock using inventory receipts and shipments
+- Extend reports with the AL report extension object
+- Add keys to existing tables through AL table extensions
+- Find Business Central contacts directly in Microsoft Teams
+- Show bin and zone fields when warehouse bins are mandatory
+- Set invoice posting policies for sales and purchase users
+- Enter opening balances for item-tracked inventory
+- Configure exported Shopify prices and discounts
+- Manage intercompany posting setup from one page
+- Open warehouse documents directly from source records
+- Improve navigation and layout on Financial Reporting pages
+- Use selected advanced warehouse tools without directed put-away and pick
+- Czechia — Release or reopen local documents in bulk
+- Czechia — Find local document lines with search
+- Czechia — Print blanket purchase orders in the local layout
+- Czechia — Replace the local VAT date with VAT Reporting Date
+
+## Modified features (932)
+
+- Productivity features for desktop users
+- Accessibility features for desktop users
+- Refreshed experience on major desktop screens
+- Business Central everywhere
+- Combined mobile/companion app for Business Central
+- Enhanced Power BI embed experience
+- Tenant administration for VARs
+- Improved Visual Studio Code AL experience
+- Localization apps and translation apps
+- Intelligent edge for Dynamics GP, Dynamics SL, and Dynamics NAV
+- Non-Inventory item type
+- Document line tracking
+- Improved report layouts
+- Create Company assisted setup improvements
+- Late payment predictions
+- Support for Azure SQL Database Managed Instance
+- Create payment journal lines from selected ledger entries
+- Switch between simplified and standard journal views
+- Warn about unreleased sales and purchase orders needed by the warehouse
+- Permission sets are editable
+- Named-user licensing scenarios in cumulative update 01
+- Norway — Support EHF 3.0 electronic invoices
+- United Kingdom — Submit VAT returns through Making Tax Digital
+- Germany — ELSTER VAT Localization extension
+- Belgium — Recognize IBANs in CODA statement imports
+- Monitor SQL Server deadlocks with file-based event targets
+- Italy — Support attachments in FatturaPA invoice XML
+- Italy — Export self-billing sales invoices as XML
+- Support an additional reporting currency on VAT returns
+- Norway — Structure KID references in SEPA credit transfers
+- Mexico — Generate third-party VAT declarations with DIOT
+- Germany — Export GDPdU and GoBD audit files in UTF-8
+- Quick Entry
+- Focus mode
+- Page inspection
+- Improved search
+- Improved list scrolling
+- Longer name and description fields
+- Physical inventory counting
+- Bulk import item pictures
+- Select multiple items on sales and purchase documents
+- Merge duplicate records
+- Enter shortcut dimensions directly on document and journal lines
+- Calculate sales quote expiration with a validity policy
+- Copy configuration templates for master data
+- Look up SWIFT codes when setting up bank accounts
+- Select reports for warehouse documents
+- Schedule background jobs and reports with a date formula
+- Edit descriptions on posted general ledger entries
+- Require approval user setup before starting approval workflows
+- Show vendor invoice numbers in purchase invoice and credit memo lists
+- Show transaction creation times in registers
+- Carry external document numbers to posted sales invoices and shipments
+- Copy item descriptions and customer and vendor names to ledger entries
+- View document attachments from ledger entries and payment application
+- Set a default ship-to address for each customer
+- Review and export RapidStart configuration package errors
+- Preview Excel imports into configuration packages
+- Preview posting for prepayment invoices and credit memos
+- Control item creation prompts on sales and purchase documents
+- Copy customer default dimensions to new jobs
+- Extend the G/L account Where-Used search to localizations and extensions
+- Set default Intrastat transaction types for service documents
+- Norway — Export Standard Audit Files for Tax (SAF-T)
+- Italy — Filter the VAT report by VAT business posting group
+- Norway — Print KID payment references on sales documents
+- Allow different currencies for non-euro SEPA payments
+- Italy — Support Fattura document types in electronic invoicing
+- Norway — Check data for SAF-T exports
+- Control the processing order of data exchange mappings
+- Netherlands — Preview ICP declaration XML before submission
+- Record an EORI number in Company Information
+- Include partner tax identification numbers in Intrastat reports
+- Italy — Set Fattura document types in VAT Posting Setup
+- Norway — Include currency information in SAF-T general ledger exports
+- Denmark — Include the country code in Intrastat VAT registration numbers
+- Belgium — Use extended text on VAT clauses
+- Switzerland — Enter an amount for Swiss QR bills without a total
+- Cancel issued reminders and finance charge memos
+- Copy line descriptions to G/L entries when posting
+- Copy documents when some lines are blocked
+- Add links to navigation menu
+- Resize columns with fewer clicks
+- Filter option fields by multiple values
+- Save and personalize list views
+- Enhancements to Excel integration
+- Filter information in reports
+- Multitasking across multiple pages
+- Customize a user profile without code
+- AL-only application platform
+- Multiple production environments
+- Report production outage in the Business Central Administration Center
+- Identify the company by a badge
+- Personalize actions on your Role Center
+- Add notes and links to data
+- Access modifiers
+- Ability to download a database export file
+- Add the Name 2 field to customer and vendor cards
+- Include job information in archived sales and purchase documents
+- Use VAT clauses on different document types
+- View item availability by unit of measure
+- View the number of general journal lines
+- View customers' contact and document info on sales documents
+- Skip empty lines in the Account Schedule report
+- MICR fonts available in Business Central online
+- New events to unblock printer extensions in Business Central online
+- Sign-in attempt telemetry in Application Insights for partners
+- View Your Reference and External Document No. on sales documents
+- Bookmarking a report
+- Search for features in Role Explorer
+- Enable non-interactive printing
+- Import profiles and UI customizations
+- Show parts hidden on pages
+- Go to related records from list pages
+- Improve pages with multiple parts
+- Bookmark reports
+- Categorize data
+- Enter data more easily
+- Filter data and create views
+- Use resources in purchase documents
+- Send the right documents to contacts
+- Receive more goods than ordered
+- Undo shipment or receipt lines for non-items
+- Manage permissions with deeper insight
+- View data sizes per table
+- Cancel sessions
+- Use AL interface objects
+- Integrate with Common Data Service
+- Pages open faster
+- Auto-insert recurring sales and purchase lines
+- Switzerland — QR-Bill management
+- Company lifecycle telemetry in Application Insights for partners
+- Migrate data from Business Central 14.x on-premises to Business Central 15.x online
+- Update error telemetry in Application Insights for partners
+- New URL parameter hides web client header
+- Improved user experience to keep things from going wrong
+- Use modern authentication to connect to Microsoft Dataverse and Dynamics 365 Sales
+- Extension lifecycle telemetry in Application Insights for partners
+- Client pageview telemetry in Application Insights for partners
+- Page layout is now cached to browser storage
+- Review payment matches and report bank reconciliations
+- Installing Marketplace apps updates in the Business Central administration center
+- Use Business Central build artifacts with generic Docker images
+- Delete extension data
+- Business Central in Microsoft Teams
+- OAuth 2.0 for Outlook add-in deployment
+- Database and file capacity management
+- Unlimited additional production environments
+- Service-to-service authentication for Automation APIs
+- Feature Management data update scheduling
+- Faster low-level code calculation
+- Copy lines from posted general journals
+- Track record creation and modification with data audit system fields
+- Company Hub
+- Check financial journals in the background
+- Export consolidation files for Dynamics 365 Finance
+- Enhanced email capabilities
+- Use new sales pricing experience
+- Control how Account Schedules for core financial reports are generated
+- Improved VAT Registration no. lookup
+- Use environmentType and environmentName launch.json properties instead of obsoleted sandboxName
+- Extension lifecycle telemetry in Application Insights for ISVs
+- Symbols can be downloaded with a snapshot initialize launch.json configuration, using above environment properties
+- Notify users of high-risk changes in selected setup fields
+- Process OData batch requests as a transaction
+- Application Performance Improvements
+- Signal from job queue execution added to Application Insights telemetry for partners
+- Signal from permission changes to added to Application Insights telemetry for partners
+- Signal from the retention policy feature added to Application Insights telemetry for partners
+- Signal from the sensitive field audit feature added to Application Insights telemetry for partners
+- Signal from the email feature added to Application Insights telemetry for partners
+- Signal from application packages lifecycle added to Application Insights Telemetry for partners
+- Snapshot Debugging
+- Restoring an Environment in the Admin Center
+- Use Shortcut dimensions in G/L Entries for Financial reporting
+- Signal from web service key authentication added to Application Insights telemetry for partners
+- Handle Price List Exceptions with Allow Updating Defaults
+- Use recurring journals to allocate balances by dimension values
+- The Business Central app for Microsoft Teams reaches General Availability
+- Netherlands — Add Partner VAT ID and country of origin to Intrastat reporting
+- Spain — Use sales invoices as substitution documents for SII
+- Spain — Report goods and services together in SII foreign-customer documents
+- Germany — Support additional ciphers in preliminary VAT returns
+- Belgium — Control inclusion in the VAT Annual Listing
+- Norway — Improve SAF-T export of contact and postal code data
+- Automatic item tracking cards
+- Bank reconciliation improvements
+- Default bins for jobs
+- Define lot sizes for production stages
+- Navigate from non-editable fields to related records
+- Double-click records in lists
+- Restrict allowed values for mandatory default dimensions
+- Apply payments to employee ledger entries in the payment reconciliation journal
+- Import bank statement flat files using column mapping
+- Correct dimensions on G/L entries
+- United Kingdom — Configure fraud prevention headers for Making Tax Digital
+- Spain — Improve handling of multiple SII special scheme codes
+- W1 — Configure the Intrastat checklist
+- Italy — Update Certificazione Unica reporting
+- Spain — Report VAT cash refunds through SII
+- Dimension issues detection and repair tool
+- Integration of Word templates
+- Data administration and cleanup tasks page
+- Get report (raw data) into Excel from request page
+- Export any list part to Excel
+- Upgrade to certificate-based Service-to-service (S2S) authentication for Dataverse and Dynamics 365 Integration
+- Service-to-service authentication
+- Integration of Word templates with interaction templates
+- New countries/regions added to the list of supported countries/regions
+- Business Central Database capacity changes (as of July 1, 2021)
+- Great Britain — Send Making Tax Digital fraud prevention headers automatically
+- Norway — Improve SAF-T reporting
+- Extension validation on upgrade
+- Additional columns through personalization
+- Non-inventory items in requisition and planning worksheets
+- Bank and payment reconciliation improvements
+- Excel actions moved to Share menu
+- Copy environment to sandbox
+- Bulk couple Business Central and Dataverse records
+- Snapshot debugger performance metrics
+- Control access to AL extension source with resource exposure policies
+- Force schema synchronization for per-tenant extensions online
+- Specify locations for non-inventory items
+- Group G/L and VAT entries in posting preview
+- Set quantity rounding precision for the base unit of measure
+- Filter currency exchange rate adjustments by account
+- Use AL to view and share files in OneDrive
+- Search Business Central documentation from the Help pane
+- Find and correct posting setup and dimension errors
+- Share Business Central record to Teams
+- Copying environments of different types
+- Operations log enhancements
+- Restart environments
+- Support for 2D barcodes
+- Shipping agent information is copied from sales orders to warehouse shipments
+- United States — Apply the December 2021 Form 1099 format changes
+- AL compiler diagnostic messages includes URLs
+- Use two-dimensional barcodes in reports (Business Central online)
+- Synchronize multiline text fields between Business Central and Dataverse (and Dynamics 365 Sales)
+- Norway — Submit the new electronic VAT return
+- Mexico — Support CFDI Carta de Porte 2.0 for packing slips and transfer orders
+- EU countries/regions — Add 2022 Intrastat reporting data
+- Germany — Use XML instead of ASCII for Intrastat files
+- Norway — Extend the electronic VAT return workflow
+- Allow Delegated Admin to setup and run Cloud Migration with approval from a licensed user
+- Norway — Correct bank data in SAF-T exports
+- India — Preview posting for service transfer orders
+- Blocking deletion of G/L accounts
+- Auto-accept transactions for intercompany journals
+- Payment reconciliation journal - Preview Posting enabled
+- Allow sell-to and bill-to customers to be different for jobs
+- Bank Account Statement report
+- Block VAT and General Posting Setups
+- Change default company bank account on sales and service documents
+- Check documents and journals while you work
+- Consolidate customer and vendor balances
+- Finding documents and entries efficiently
+- Fixed Quantity in production bills of materials
+- Set default dimensions on locations
+- Copy link from the Share menu
+- Export report datasets to XML
+- Profile performance from the Business Central client
+- Define multiple layouts of the same type in report objects
+- Create and post bank deposits
+- Show context-aware Microsoft and partner links in the Help pane
+- Enter demand forecasts by item variant
+- Install the Business Central web app from Microsoft Store
+- Use rich text and links in teaching tips and tours
+- Select reports for project quotes
+- Design report layouts in Excel
+- Customize account schedule report presentation
+- Add email attachments to records from the Outlook add-in
+- Add action on card and list pages to trigger a chosen flow from Business Central web client
+- Power Platform and Azure Logic Apps connector for Business Central online no longer in preview
+- Fraud prevention headers for clients in the UK
+- Country/regional expansion in 20 new countries
+- Shopify Connector
+- Release and reopen multiple documents
+- Improved settings for managing updates
+- Support inventory pick and warehouse pick operations for jobs
+- New AppSourceCop allowing you to run validation to determine any code hit by obsoleted objects for a given future version
+- Shopify prospects get a great first-run experience
+- Current user support for the SMTP email connector
+- Modern action bar
+- Run app setup from Extension Management
+- Shopify connector improvements
+- Excel reporting improvements
+- Improved Microsoft 365 collaboration
+- Inherit ApplicationArea from the page for page fields
+- View the length of Text and Code fields in page inspection
+- Switch companies across environments
+- Launch an AL session in a specific company from Visual Studio Code
+- Exclude Try functions when breaking on errors in the AL debugger
+- Financial reporting replaces account schedules
+- Use VAT Date on documents and entries
+- Transfer data in bulk in AL upgrade code
+- Use symbolic option access syntax in AL formulas
+- Skip temporary records when breaking on writes in the AL debugger
+- See primary key field order in AL IntelliSense
+- See primary key field order in AL record tooltips
+- Generate or update AL permission sets from Visual Studio Code
+- Enable NoImplicitWith by default for new AL projects
+- Configure OneDrive integration with assisted setup
+- Choose the report layout on the request page
+- Require a variant code for items with variants
+- Open app setup at the end of installation
+- Read the database row version from AL
+- Personalize and design Automate actions in the web client
+- Show or hide Power BI parts on lists using personalization
+- Show executed lines during snapshot debugging playback
+- Sort records flexibly in the Planning Worksheet
+- Allow source access by default in the AL:Go! project template
+- Access Business Central with your Microsoft 365 license
+- Embed Business Central in Teams tabs
+- Auto-Save as you work:
+- Accessibility declaration for Italy available
+- Use SharePoint Connector module in System Application to build integration between Business Central and Sharepoint
+- Use multiline text fields with Word mail merge
+- Sync users based on environments security group
+- Business Central is available in 11 more countries/regions
+- Use default attachments in email sent from Business Central
+- Easily comply with email sending limits through email throttling
+- Move custom fields to extensions during cloud migration
+- Integrated session using Service-to-Service (S2S) authentication can now schedule tasks
+- Media/image support for Business Central connectors
+- Power Apps and Power Automate support for document attachments
+- Reverse payment reconciliation journal entries
+- Access attachments on additional list pages
+- Scroll through more records in lists
+- Reuse launch configurations across workspace projects
+- Copying the SystemID and data audit fields using CopyRows
+- Get more, better communications as admin
+- Get more visibility into service interruptions
+- Restore deleted environments
+- Use advanced settings when restoring an environment to a point in time
+- Restrict traffic on system integrations with service tags
+- Copy SystemId and data audit fields with DataTransfer.CopyRows
+- Get started with more sample Power Automate templates and Power Apps
+- Use business events to notify and trigger external systems
+- Select Dataverse environment for Power Automate flow actions
+- Post adaptive card or link to Business Central record with Power Automate
+- New approval workflow experience with Power Automate templates
+- Preview the effect of exchange rate adjustments
+- Alternative customer/vendor posting groups
+- Analyze, group, and pivot data on list pages
+- Review general ledger accounts faster
+- Personalize actions on document line parts
+- Set a title and custom actions on AL error dialogs
+- Synchronize master data across companies
+- Manage Business Central permissions with security groups
+- Navigate actions and menus using keyboard KeyTips
+- Drag and drop a file onto the file upload dialog
+- Filter the content of created inventory warehouse documents
+- Ship and receive non-inventory items on warehouse documents
+- Apply default location dimensions to inventory documents and journals
+- Select multiple items and identify required fields in transfer orders
+- Undo transfer shipments
+- Post multiple transfer orders at the same time
+- Use item number series for catalog items and add them to blanket orders
+- Set record read isolation in AL
+- Preview posting for journals and documents
+- AL Explorer and AL Home in Visual Studio Code
+- Allow application and tenant databases to differ in collation
+- Turn off event-based sync for specific integration table mappings
+- Save time with automatic account codes
+- Swedish localization delivered as extension
+- Attach AL debugger to active session or next session
+- Non-deductible, partly deductible VAT expands functionality
+- Partners can control welcome banner texts
+- Measure onboarding time of customers, apps and features
+- Get unblocked using actionable error messages in select application areas
+- Synchronize returns, refunds from Shopify
+- Additional types of document approval templates for Power Automate
+- Connect to Dataverse when Business Central local currency is different from Dataverse base transaction currency
+- Use attachments from document lines while sending emails
+- Added new documentation, guidance, tools and samples illustrating a process of creating Power Apps for Business Central
+- Business Central is enabled in 31 new countries and regions
+- W1 — Provide SAF-T through the Audit File Export extension
+- Denmark — Export G/L entries for Regnskab Basis
+- Spain — Manually accept SII documents with inconsistent portal responses
+- Iceland — Update Sales & Receivables printing regulatory information
+- Users with the device license can now set up jobs to run as scheduled tasks in the job queue of Business Central
+- Copy Links when posting general journals
+- Get control over how to view Power BI embedded content
+- Consolidated Power Automate flow creation from Business Central templates
+- Business Central virtual tables fully supported on Dataverse
+- Enable specific virtual tables when connecting to Dataverse
+- Create Power Automate flows supporting different companies
+- Power Pages support via Business Central virtual tables
+- Use synthetic relationships to expose more Business Central data in Dataverse
+- Business events in Business Central connector for Power Automate
+- Bank reconciliation with Copilot
+- Search data from anywhere in Business Central
+- SecretText data type
+- Allocation account type
+- Extend the currency exchange rate adjustment process
+- Receive more items than ordered with inventory put-away documents
+- Print and scan barcodes in Business Central
+- Store table extension fields in a single companion table
+- Improve inventory count and adjustment workflows
+- Find AL references to triggers, system methods and trigger events
+- Configure handling for different warehouse operations
+- Generate customer statements with open entries only
+- Block item variants for sales and purchasing
+- Get IntelliSense for variables in the AL debugger console
+- Show AL method parameter and return type inlay hints
+- Delete orphaned data from uninstalled extensions
+- Include intercompany general journals in approval workflows
+- Choose more sampling intervals for AL profiling
+- Navigate between orders, receipts, and invoices from quantity fields
+- Set the default folder for new AL projects
+- Share a data analysis view with a coworker
+- Make intercompany transactions across Business Central environments
+- Demo tool and data for service scenarios
+- Mark fields as read-only when customizing UI
+- Performance gain by reducing locks in the database
+- Suggest the next step for sales and production orders
+- Use the AL Language extension for Linux in preview
+- Business Central virtual tables fully supported on Microsoft Dataverse
+- Power Pages support via Business Central virtual tables on Dataverse
+- Include or exclude tables from cloud migration
+- Use actions to go to or fix errors inline
+- Get marketing text suggestions with Copilot
+- Complete bank account reconciliation faster with Copilot
+- Extend G/L entry aggregations when posting invoices
+- Spain — Add invoice counts and amounts to the Vendor - Overdue Payments report
+- Spain — Use non-deductible and partly deductible VAT in SII reporting
+- Automatically update Marketplace apps with minor updates
+- Show sales orders reserved from stock in a Role Center cue
+- Improved data upgrade troubleshooting for Dynamics GP migration
+- Easily integrate generative AI with your AL solutions
+- VAT posting in General Ledger setup
+- New operational limits on scheduled tasks and web requests improve throughput
+- Denmark — Submit VAT returns electronically
+- Denmark — Upload and retain SAF-T files
+- Denmark — Require digital vouchers when posting
+- Denmark — Notify companies to register with NemHandel
+- Denmark — Block deletion of companies registered with NemHandel
+- E-invoicing with NemHandel in Denmark
+- Detect invalid cloud migration configurations with proactive warnings
+- Translatable Excel layouts
+- Make use of static and runtime metadata available in Excel layouts
+- Generic Microsoft Graph API Wrapper
+- Add Azure File Services API module
+- Marketplace app hotfixes are now validated against the latest available app version
+- Marketplace ISV publishers can preview their Marketplace apps with select customers
+- Improved update release processes
+- Chat with Copilot
+- Improved project invoicing
+- Archive and restore projects
+- Assemble-to-project
+- Sustainability journals
+- Drag and drop multiple files
+- Power BI dashboards for core ERP
+- Automate reminders and collections
+- Use the collection management Role Center
+- Control and monitor inventory cost adjustment
+- Enter time sheets more productively
+- Approve multiple time sheet lines
+- Block items, variants, and service items in service transactions
+- Correct errors in service invoices
+- Set service invoice posting policies by user
+- Attach documents to service records
+- Use standard project management terminology
+- Invoice project tasks to multiple customers
+- Set a default location for a project or project task
+- Use Excel layouts for selected reports
+- Manage Field Service work orders and invoice them in Business Central
+- Analyze telemetry events across browser, server, session, or user
+- Improve approval processes through Power Automate
+- Define extension objects in the same app as their base objects
+- Define field tooltips at the table level
+- Debug the System Application
+- Default custom APIs to OData schema version 2.0
+- Handle multiple file uploads
+- Use linked environment in Dataverse integration
+- Expand Copilot language availability
+- Simplify collections with Copilot for Finance and Business Central (preview)
+- Install Field Service Integration with Business Central from Marketplace
+- Enable additional countries and regions (general availability)
+- Automate country of origin listed for item tracking code in Intrastat reporting (general availability)
+- Enable sustainability features for integrations with APIs (general availability)
+- Migrate record links and notes with cloud migration tooling (preview)
+- Remove friction when working with external app dependencies (general availability)
+- Add table and field mappings to existing Dataverse integration tables
+- Ask Copilot to explain a field
+- Generate analysis tabs with Copilot
+- Record and replay page scripts for acceptance testing
+- Sales line suggestions with Copilot
+- E-document matching assistance with Copilot
+- Audit Business Central operations in Microsoft Purview
+- Allow customers to consent to Microsoft Support data access
+- Link Business Central environments to Power Platform environments
+- Auto-apply templates when synchronizing data with Dataverse
+- Allow more than one user to post warehouse entries at a time
+- Use new reports and demo data for financial reporting
+- Stay current with Shopify connector
+- Manage subscription billing and revenue and expense recognition
+- Add an item as a Shopify variant
+- Archive service management documents
+- Use Excel reports for consolidation and fixed assets
+- Synchronize product translations to Shopify
+- Use specific prices and discounts when synchronizing prices in Shopify
+- Define shipping information for Shopify shipping fees
+- Add extended text to project planning lines
+- Export posted sales invoices to Shopify
+- Manage environment updates more flexibly
+- Change the data search method in lists (general availability)
+- Report sustainability entries with financial reports (general availability)
+- VAT Return feature now available - Czechia (general availability)
+- Use new service providers in the e-documents framework (public preview)
+- Do ad hoc analysis on fixed assets, projects, and services (general availability)
+- E-file IRS 1099 forms without integration
+- Migrate to the cloud from Dynamics SL (general availability)
+- Start using E-Documents framework localized for Germany
+- Use the e-documents framework in the Spanish version
+- E-file IRS 1099 forms without integration (public preview)
+- Start using E-Documents framework localized for Germany (public preview)
+- Use embedded Power BI reports out of the box (general availability)
+- Use the e-documents framework in the Spanish version (public preview)
+- Improvements to the Copilot & AI capabilities page
+- Nested App Authentication for the Outlook add-in
+- Package resources in extensions and access from AL
+- Get list of manageable environments for Microsoft Entra apps
+- Encrypt data at rest with a customer-managed encryption key
+- Integrate Field Service with service management
+- View item availability in Field Service work orders
+- Edit price lists in Excel
+- Use SecretText with control add-ins and JSON objects
+- Use improved troubleshooting options for cost adjustments
+- Chat with Copilot to learn installed add-on apps
+- Summarize with Copilot
+- Sales Order Agent to automate sales order-taking
+- Use autofill with Copilot to suggest field values
+- Post cash documents to projects in Czech localization
+- Add more text in cash documents in Czech localization
+- Use Peppol PINT A-NZ format for e-documents in AU and NZ
+- Use VAT Return to report VAT in local and functional currencies in Czech Republic
+- Hide lines with zero quantity in Czech document reports
+- Define allowed languages per environment
+- Troubleshoot clients, apps, and add-ins with telemetry
+- Validate certificates on external web service endpoints called from AL HttpClient (controlled by **Feature Management**)
+- Use new properties on a report layout
+- Embed Power BI content in web client with new page type
+- Overloaded JsonObject data type GetValue method
+- Move tables and fields with data across extensions as part of refactoring
+- Extend CardPageId on list and listpart pages
+- Use the new continue keyword for AL loops
+- Read and write YAML in AL using JsonObject
+- Mock outbound HttpClient web service calls during testing
+- View build metadata in Extension Management page
+- Work with multiline strings in AL
+- Receive project items with receipts or put-aways
+- Avoid document number errors when you post project journals
+- Combine service shipments on a single service invoice
+- Block items or variants from production output
+- Cancel production orders that have consumption
+- Reopen finished production orders
+- Enable overpicking for production orders
+- Handle production output with warehouse put-aways
+- Print barcodes from production orders
+- Create subscription contract lines manually
+- Add unit cost in subscription lines
+- Track and rebill quantity changes in subscriptions
+- Specify default sustainability values for various entities
+- Capture sustainability data with general journals
+- Enable sustainability Scope 3 value chain for assembly and transfers
+- Provide carbon equivalent data for sales based on Scope 3 automation
+- Start value chain in purchase process for Scope 3 in sustainability
+- Use sustainability Scope 3 value chain in manufacturing
+- Preview PDF attachments directly in web client
+- Adjust the FactBox pane width
+- Automate embedded attachments in PEPPOL
+- Generate multiple incoming e-documents for multiple attachments
+- Process e-documents in two steps
+- Extend E-Documents features using a new interface
+- Require Intrastat classifications on documents
+- Check total purchase amounts on documents
+- Add support for MultiSubnetFailover
+- Enhanced index troubleshooting
+- Enhance reports with PDF post-processing capabilities
+- Validate report layouts for errors as an admin
+- Access report and request metadata in Word layouts
+- Calculate values only for visible FlowFields (controlled by **Feature Management**)
+- Use streamlined product design tools in manufacturing
+- Achieve greater accuracy in manufacturing costing
+- Reschedule production orders within a safety lead time
+- Use ExFlow by SignUp connector for e-documents
+- Use Logiq as a service provider for e-documents
+- Use the new Out of Scope emission category
+- Use water and waste management with sustainability
+- Optimize screen estate usage on the web (controlled by **Feature Management**)
+- Use the latest update for the Shopify connector
+- Experience improved usability in manufacturing
+- Enhance purchase order line matching with Copilot
+- Autofill fields with Copilot
+- Showcase Business Central with Czech localization demos
+- Use modern search to access data in Czech localization
+- Select extensions to open in Visual Studio Code from the web client
+- Search, navigate and use app symbols as context for GitHub Copilot
+- Self-service App Key Vault onboarding for Marketplace apps
+- Use new IncStr parameter to change integers by more than 1 in string variables
+- Convert simple type values to text using new ToText method
+- Create lists and dictionaries of interfaces in AL
+- Generate launch json file from the web client
+- Running objects in actions defaults to UI descriptors on target object
+- Import and export more data for Shopify B2B companies and company locations
+- Activate sales channels in Shopify Connector
+- Import and export more data using Shopify metafields
+- Troubleshoot export issues on Shopify Skipped Records page
+- Link to Power Platform to use Copilot Studio messages
+- Use enhanced Financial Reporting capabilities
+- Use enhanced customer document layout for service management
+- Omit warehouse pick for manual flushing methods (controlled by **Feature Management**)
+- Manage document attachments in manufacturing
+- Use Edit in Excel on output, consumption, and item journals
+- Allow multiple people to post inventory at the same time (controlled by **Feature Management**)
+- Create demo data for Subscription Billing with demo data tool
+- Align Subscription Billing with standard user experience and terminology
+- Add more columns to various pages to gain more insight
+- Use refreshed demo data for Sustainability
+- Use user interface enhancements for better experience
+- Calculate GST on recurring journals for India
+- Manage external files more easily through a unified API in the External File Storage module
+- Use enhanced analytics for inventory
+- Create e-documents from posted sales invoices
+- Export reminders and finance charges as PEPPOL files
+- Automate tests for your Copilot extensions with the Business Central Test Toolkit
+- Delete incorrect e-documents and avoid duplicates
+- Preview incoming e-invoices prior to processing
+- Use e-documents to fix unposted purchase documents
+- Send e-documents via a service and email simultaneously
+- Use AI resources for your Copilot extensions
+- Use B2B Router as a service provider for E-documents
+- Use Continia as a service provider for e-documents
+- Analyze subscription billing data with Power BI reports
+- Add fields from related tables in analysis mode
+- Use enhanced analytics for manufacturing (updated Power BI app)
+- Use enhanced analytics for projects
+- Use enhanced analytics for purchasing
+- Use enhanced Excel reports for sustainability
+- Use enhanced analytics for Sustainability
+- Use enhanced analytics for sales
+- Capture more sales with enhanced Sales Order Agent
+- Chat with Copilot to learn how to use installed add-on apps
+- Calculate and post VAT settlement by Activity Code - Italy
+- Automate payables processes with the Payables Agent
+- Summarize with Copilot is faster in update 26.3 and includes a Copy summary option.
+- Autofill with Copilot adds improved support for keyboard shortcuts and screen readers.
+- Use online content from app publishers in Copilot
+- Use ZUGFeRD format for E-Documents in Germany
+- Search the web with Copilot Autofill
+- Expand Sales Order Agent capabilities and availability
+- Give more instructions for the agent when reviewing tasks
+- Use Sales Order Agent to automate sales order-taking
+- Find pages and reports with advanced Tell Me search
+- Get more contextual invoice drafts with Payables Agent
+- Match purchase invoices to orders with Payables Agent
+- Prioritize invoice draft changes with Payables Agent confidence level
+- Use Payables Agent in more countries and regions
+- Use enhanced chat with Copilot
+- Define sell-to and bill-to customer details per company location
+- Enable staff-to-salesperson mapping for Shopify orders
+- Synchronize market-specific prices with Shopify
+- Troubleshoot the Shopify Connector
+- Alternative posting groups for employees in Czechia
+- Submit IRS 1099 forms electronically to IRIS in the US localization
+- Truncate table data with new AL method
+- View SQL call information in performance profiles
+- Set up the Clearance model in the E-Documents framework
+- Use e-documents for shipment and transfer shipment document types
+- Calculate excise taxes
+- Create multiple fixed asset cards
+- Use alternative posting groups for employees
+- Tenant administrators can set Feature Management switches with an API
+- Deferral reporting enhancements
+- Enable projects with value chain automation in Scope 3
+- Enable taxonomy elements for ESRS and other standards
+- Generate a CSRD preparation report
+- Measure all gases as CO2 equivalents in Sustainability
+- Report on social and governance information for employees in Sustainability
+- Require approvals for sustainability journals
+- Track energy consumption in Sustainability
+- Track item charges across value chain automation in Scope 3
+- Track items of concern related to gas emissions
+- Use ESG Reporting integrated with Business Central
+- Adjust width of Copilot, help, and page scripting panes
+- Use the Concealed text field type for sensitive data
+- Give more instructions for the agent when you review its tasks
+- Understand how each Copilot and agent capability is billed
+- Use enhanced analysis assist with Copilot
+- Use the Admin permission set with e-documents
+- Use the E-Documents framework with Power Automate and other solutions
+- Access open-sourced Power BI apps
+- Add data fields to report layouts using Word add-in
+- Use drill-back and dynamic dimension names in Power BI apps
+- Add more fields and columns by personalizing pages
+- Sort lines by type and number in sales and purchase postings
+- Autofill contact details with Copilot
+- Summarize with Copilot enhancements
+- Check total amounts on purchase advances for Czechia
+- Get UI improvements for Unreliable Payer for Czechia
+- Install UK localization as an extension to the base app
+- New Contoso Coffee Demo Dataset for Intrastat in Czechia
+- New pages for purchase and sales advance entries for Czechia
+- Reconciliation feature in cash documents for Czechia
+- Cancel build and publish from Visual Studio Code
+- Hide Copilot summaries
+- Record and edit easier with enhanced page scripting tool
+- Use new Contoso Coffee Demo dataset for Intrastat
+- Migrate record links and notes with cloud migration tooling
+- Use enhanced Financial Reporting
+- Use the enhanced Inventory Power BI app to forecast future inventory flow
+- Use the enhanced Power BI app for Projects to analyze project profitability
+- Use the enhanced Power BI Finance app to improve your cashflow
+- Use the enhanced Power BI Manufacturing app and modernized reports in manufacturing analytics
+- Use the enhanced Purchasing Power BI app to analyze risk related to vendors
+- Use the enhanced Power BI Sales app and modernized reports in sales analytics
+- Configure the default calculation for the Calculate Consumption report
+- Avoid changing the Emissions Unit of Measure when entries already exist
+- Use CBAM and EPR calculations
+- Use updated demo data for Sustainability
+- Use an updated Sustainability Manager Role Center
+- Connect AI agents to Business Central through MCP server
+- Delete companies from production environments in Denmark
+- Process sales e-documents in two steps
+- Use the ForNAV Peppol connector for e-documents
+- Print the Audit Trail report
+- Use new SEPA file CAMT0530008
+- Use the Account Payable Role Center
+- Support Digital Product Pass reporting requirements
+- Create sales invoices from orders automatically, and use new ways to view orders
+- Use renamed customer templates and fulfillments
+- Migrate recurring purchase and sales lines from Dynamics GP
+- Add drill-down links to VAT entries in the VAT return lines for Czechia
+- Enable additional countries/regions
+- Enable embedded Verifactu mode in Spain
+- Prioritize invoice draft changes using Payables Agent confidence level
+- Use Payables Agent in more countries/regions
+- Print IRS 1099 form copies in bulk in the US
+- Use purchase draft page to preview Peppol electronic invoices
+- Envision and design AI agents in Business Central
+- Export sandbox environment databases^1^
+- Set up Service Participants to Company Information
+- Migrate to the cloud from any SQL database^1^
+- External storage support for document attachments
+- Stop all active tasks for selected agent
+- Link inbound e-documents to purchase invoices
+- Set a default e-document type on vendor templates
+- Use self-billed invoices
+- Migrate to the cloud from any SQL database
+- Set default language for documents on the company level
+- Add pictures to item variants to differentiate product options
+- Approve requisition worksheets and item journals
+- Create purchase quotes for contacts
+- Define item attributes for item variants
+- Evaluate the quality of goods and materials
+- Transfer journal line descriptions to bank statements
+- Assign custom collections to items exported to Shopify
+- Export items to Shopify with product options based on item attributes
+- Sync images of product variants between Business Central and Shopify
+- Use checkout currency when you create sales documents from Shopify orders
+- Connect AI agents to the admin center through MCP server
+- Manage database index usage and cost per company
+- Use new APIs for analyzing approval workflows for auditors and IT staff
+- Use new APIs for analyzing permissions for auditors and IT staff
+- Add the Description 2 field to various pages to gain more insight
+- Create purchase orders from drop shipments
+- Filter receipt and shipment lines to quickly find documents you want to invoice
+- Match purchase invoices to multiple order and receipt lines
+- Post purchase invoices for drop shipments independently of related sales invoices
+- Reverse drop shipments when sales and purchase documents aren't invoiced
+- Send posted sales shipments and return receipts by email
+- Discover emails in the mailbox that have been processed by Payables Agent
+- Run AL tests from Visual Studio Code
+- Calculate taxes for plastic and sugar
+- Calculate withholding taxes for vendors
+- Financial Reporting enhancements
+- Use new sales document report layouts that show your carbon footprint
+- Download symbols from NuGet feed
+- Run AL objects and open record references using fully qualified names
+- Create agentic experiences with enhanced MCP server (now from Visual Studio Code and other MCP-compliant clients)
+- Get item insights with advanced KPIs and Summary
+- Change original document VAT date in VAT entries for Czechia
+- Use e-invoice formats for service invoices in Germany
+- Allow developers to define data analysis definitions in their apps
+- Get more secure outgoing HTTP calls by default
+- Stay in flow of work with updated Outlook integration
+- Choose planning behavior for items without SKUs at a location
+- Use date formulas to control allowed posting periods
+- Show avatars for record creators and modifiers in lists
+- Adjust VAT in local currency on sales documents in Czechia
+- Align VAT periods with Microsoft standards for Czechia
+- Get started with clearer user setup controls for Czechia
+- Use carbon footprint with OIOUBL e-invoicing format
+- Evaluate AL coding agents with BC-Bench
+- Control the lifecycle of report layouts
+- Enhanced Subscription Billing Power BI app
+- Modernizing analytical reports for inventory
+- Showcase analytics with enhanced demo data
+- Create contract service orders with One Service Item Line/Order setting
+- Use new APIs in Sustainability for better integration
+- Validate Dynamics GP data migration
+- Manage expenses in Business Central using Expense Agent
+- Enable Troubleshooting MCP Server for AL
+- Enable Investment Boost for fixed assets
+- Manage employee expenses using expense reports
+- Audit user and group permissions across apps
+- Use enhanced and faster reports for analysis of deferrals and trial balances
+- Comply with Australian Payment Times Reporting bill
+- Enable electronic invoicing in France
+- Use Payment Practices in the UK localization
+- Use payments with the E-Document framework
+- Enable accelerated depreciation methods for fixed assets
+- Run reimplementation projects using cloud migration tool
+- Use new APIs for getting the PDF of a document report
+- Use Sales Order Agent in Belgium and Switzerland
+- Skip inline attachments when processing Sales Order Agent emails
+- Use Word layouts for quality management reports
+- Install quality management demo data and follow the setup checklist
+- Use subcontracting capabilities in production processes
+- Assign projects to expenses in Expense Agent
+- Try Payables Agent with 50 invoices at no charge
+- Use Expense Agent in German, Danish, French, and Spanish
+- Run multiple Sales Order Agents per company with smarter item matching, relevance filtering, and streamlined setup
+- Upload, install, and manage PTEs in the admin center^1^
+- Use Shopify B2B features on more plans
+- Speed up processing with Known Senders in Payables Agent
+- Map new Dataverse fields in Business Central
+- Enable Microsoft Copilot chat experience
+- Improve purchase order matching in Payables Agent
+- Manage agent permissions easier
+- Manage tasks from all agents in dedicated task pane
+- Review content generated by agents directly on pages
+- Run data queries with MCP Server
+- Updates to Agent UI experience
+- Access application links through ModuleInfo
+- Actions on reports and pages can now inherit tooltips
+- AL developers can turn indexes on/off in AL code
+- Audit AL app accessibility and debugging boundaries
+- Build extensible and data-driven AL test suites
+- Check records for uncommitted changes
+- Configure AL MCP workspaces dynamically
+- Debug recorded Business Central failures with an AI agent
+- Diagnose AL MCP server activity with file logging
+- Discover objects in connected Business Central environments
+- Evolve AL interfaces with default implementations
+- Get clearer guidance for AL object structure
+- Let agents allocate free AL object IDs
+- Page Scripting enters General Availability
+- Profile slow Business Central sessions with AI agents
+- Restrict global symbol resolution to a minor version
+- Run AL tests from command-line and CI/CD workflows
+- Simplify AL extension setup and authentication in Visual Studio Code
+- Exchange EDI documents
+- Manage Shopify B2B companies, catalogs, and pricing
+- Process Shopify order changes, exchanges, and refunds
+- Calculate multiple excise duties per item
+- Automate report outputs
+- Bookmark list views and analysis tabs
+- Run multiple financial reports and get a single PDF output
+- Trace G/L account usage in finance reports
+- Carry subcontracting instructions into purchase orders
+- Post direct transfer orders from warehouse-enabled locations
+- Reduce manual work in quality tests and inspections
+- Use inventory put-aways and picks for subcontracting
+- Preview images directly in web client
+- Show recently searched in Tell Me
+- Show recently used in lookups
+- Brand document reports with report themes
+- Control the lifecycle of all report layouts
+- Design document report themes with the updated Word add-in
+- Design header/footer layouts for document reports with the updated Word add-in
+- Reuse header/footer layouts across document reports
+- Use conditional visibility in the updated Word add-in
+- Use formulas to calculate emissions in purchase documents
+- Track your carbon footprint for fixed assets
+- Add date ranges and vehicle types in your mileage calculation
+- AI-Driven Approvals
+- Use assigned projects only in the web app
+- Reverse Sustainability Ledger entries transaction
+- Track your carbon footprint with item journals and item reclassification journals
+- Synchronize tariff numbers and origin values with Shopify
+- Control sales document creation for Shopify orders and returns
+- Design document reports with the updated Word add-in
+- Use system audit fields in analysis mode and in profiles
+- Financial report changes are now always logged
+- Developers can define indexes that span fields from a base table and its table extensions
+- Track AL compiler diagnostics in automated builds
+- Translate objects with the same name in different namespaces
+- Use AL language intelligence from AI agents and other editors
+- Keep Shopify connections current
+- Calculate and report VAT based on expense reports
+- Calculate withholding tax automatically in expense reports
+- Improve duplicates prevention
+- More countries and languages
+- Use withholding taxes (WHT) with employee transactions
+- Vendor specific number series for Self-billing Invoices
+- Administrators can turn SIFT indexes on/off
+- Monitor usage of Open in Excel with telemetry
+- Reduce complexity of report datasets
+- Faster data loading with improved data model for table extensions
+- Set up and explore subcontracting more easily
+- Work more efficiently with manufacturing documents and capacity calendars
+- Estimate your carbon footprint in Service Management
+- Use specific method for carbon footprint calculation when enabling item tracking
+- Agent actions review notifications on lists
+- Austria - Enable SAF-T audit file format
+- France - Install French localization as an extension to the base app
+- Germany - Export euBP with audit files export
+- Iceland - Enable SAF-T audit file format
+- New EET Integration in Czechia
+- Start using the new non-deductible VAT framework in Belgium
+- Self-billing enablement
+- Add an interim approver when you submit an expense report
+- Create expense reports per trip automatically
+- Configure and use bonded locations for excise duty calculations
+- Cross-environment Master Data Management
+- Use approvals with fixed asset journals
+- Use batch totals for payment journals
+- Use complex calculation methods for excise duties
+- Match sandbox database configuration to production
+- Agent can process vendor credit notes
+- Add EUDR certification information
+- Data mirroring to Microsoft Fabric
+- Remove ability to upload and install PTEs from Extension Management page
+- United States - EFT improvements
+- United States - Tax improvements
+- Australia - Taxable payments annual report
+- United Kingdom - Resubmit a VAT return
+- Show page notifications during agent review
+- Share packaged resources between apps
+
+## Duplicate records consolidated (3)
+
+- Bank reconciliation assist with Copilot
+- Create product information with Copilot
+- Show avatars for record creators and modifiers in list
