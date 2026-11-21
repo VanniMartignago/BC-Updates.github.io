@@ -1,5 +1,7 @@
 # Business Central sources
 
+Consult the [source scan archive](archivio_fonti/README.md) before opening an index, article, or linked reference. The register tracks prior access separately from source approval and feature verification.
+
 ## Approved official Microsoft sources
 
 - [Microsoft Learn MCP server](https://learn.microsoft.com/api/mcp): use its search and document retrieval tools to consult official Microsoft documentation when more efficient than web browsing. Cite the underlying documentation page as the feature source, not the MCP endpoint. Use other approved sources when the MCP does not provide sufficient coverage.
